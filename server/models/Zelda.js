@@ -10,7 +10,7 @@ const zeldaSchema = new Schema({
     },
     questions: [
         {
-
+            type: String
         }
     ],
     options: [
