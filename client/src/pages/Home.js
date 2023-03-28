@@ -14,7 +14,7 @@ const {Sider} = Layout;
 const Home = () => {
     return(
         <Layout 
-        style={{fontFamily:"DM Serif Display", background: 'gray'}}>
+        style={{fontFamily:"DM Serif Display", background: 'gray'}} className='body-container'>
             <Sider className='side-leaderboard' max-width={300} style={{ background: 'gold' }}>
 
            <h1>Leaderboard goes here...... Scroll function yet to be implemented</h1>
