@@ -1,5 +1,4 @@
 // scoreboard has a reference to quiz
-
 const mongoose = require('mongoose');
 
 const { Schema } = mongoose;
@@ -24,10 +23,10 @@ const quizSchema = new Schema({
     answer: {
         type: String,
         required: true
-    }
-    
+    },
+    scores: [ userSchema ]
 })
 
-const Quiz = mongoose.model('Quiz', quizSchema);
+const Quiz = mongoose.model('quiz', quizSchema);
 
 module.exports = Quiz;
