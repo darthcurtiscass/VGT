@@ -23,3 +23,27 @@
   align-items: flex-start;
   justify-content: space-evenly;
 }
+
+.logo {
+  float: 'left';
+  width: 120;
+  height: 31;
+  margin: '16px 24px 16px 0';
+  background: 'rgba(255, 255, 255, 0.2)';
+}
+
+.container {
+  border: solid;
+  border-color: black;
+  background-color: #a57a0e;
+  font-size: larger;
+  display:flexbox;
+  margin: 20px;
+  padding: 20px;
+}
+
+.side-leaderboard {
+  @media screen and (max-width: 980px) {
+    
+  }
+}
