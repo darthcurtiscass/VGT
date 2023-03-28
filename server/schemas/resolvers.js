@@ -50,7 +50,7 @@ const resolvers = {
       try {
         if(context.user) { 
           return User.findOneAndUpdate(
-            { username: context.user.username },
+          {_id: context.user._id},
             {
               $addToSet: {
                 scores: { score }
@@ -100,6 +100,28 @@ const resolvers = {
         console.log(err)
         throw new AuthenticationError("you have a clinger")
       }
+    },
+    saveQuiz: async (parent, { quizData }, context) => {
+      try {
+        if(context.user) {
+          return User.findOneAndUpdate(
+            { _id: context.user._id },
+            {
+              $addToSet: {
+                quizes: { quizData }
+              }
+            },
+            {
+              new: true,
+              validators: true
+            }
+          )
+        }
+      } catch(err) {
+        console.log(err)
+        throw new AuthenticationError("Not smart enough to save a quiz")
+      }
+
     }
   }
 };

@@ -25,6 +25,13 @@ const typeDefs = gql`
     scores: [User]
   }
 
+  input QuizInfo {
+    name: String!
+    questions:[ String ]!
+    options:[ String ]!
+    answer: String!
+  }
+
   type Auth {
     token: ID
     user: User
@@ -45,7 +52,7 @@ const typeDefs = gql`
     login(email: String!, password: String!): Auth
     addFriend(friendId: ID!): User
     removeFriend(friendId: ID!): User
-    saveQuiz(friendId: ID!): User
+    saveQuiz(quizData: QuizInfo!): User
   }
 `;
 
