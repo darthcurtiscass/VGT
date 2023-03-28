@@ -2,6 +2,7 @@ import React from 'react';
 import '../../src/App.css';
 import { Breadcrumb, Layout, Menu, theme } from 'antd';
 
+
  function Header() {
     return(
       <div>
@@ -14,8 +15,9 @@ import { Breadcrumb, Layout, Menu, theme } from 'antd';
             margin: '8px 8px 8px 8px',
             padding: '8px 0px 8px 0px',
             background: 'gold',
+            fontFamily: '',
           }}>
-            ICON HERE
+            <h1>VGT</h1>
         </div>
 
         {/* <nav mode="horizontal" theme="dark" className="main-header-menu">
@@ -73,5 +75,6 @@ import { Breadcrumb, Layout, Menu, theme } from 'antd';
      </div>
     );
 }
+
 
 export default Header;
