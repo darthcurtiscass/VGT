@@ -7,7 +7,7 @@ import 'antd/dist/reset.css';
 
 function App() {
   return (
-    <Layout className="App">
+    <Layout style={{fontFamily:"DM Serif Display"}} className="App">
       <Header/>
       <div>
         <Home/>
