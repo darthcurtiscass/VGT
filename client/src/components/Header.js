@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../src/App.css';
-import { Breadcrumb, Layout, Menu, theme } from 'antd';
+import { Breadcrumb, Layout, Menu, theme, xs } from 'antd';
 
 
  function Header() {
@@ -43,7 +43,7 @@ import { Breadcrumb, Layout, Menu, theme } from 'antd';
         <Menu 
         mode='horizontal'
         style={{
-            backgroundColor:'gold'
+            backgroundColor:'gold',
         }}
         
         items={[

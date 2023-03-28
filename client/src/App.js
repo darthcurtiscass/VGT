@@ -4,12 +4,13 @@ import Footer from './components/Footer';
 import Home from '../src/pages/Home';
 import {Layout} from 'antd';
 import 'antd/dist/reset.css';
+import './App.css';
 
 function App() {
   return (
     <Layout style={{fontFamily:"DM Serif Display"}} className="App">
       <Header/>
-      <div>
+      <div className='body-container'>
         <Home/>
       </div>
       <Footer/>

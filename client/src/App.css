@@ -42,8 +42,13 @@
   padding: 20px;
 }
 
-.side-leaderboard {
-  @media screen and (max-width: 980px) {
-    
-  }
+.body-container {
+  height:100vh;
 }
+
+
+@media only screen and (max-width: 480px) {
+  .side-leaderboard {
+    display: none;
+  }
+  } 
