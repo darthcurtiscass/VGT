@@ -39,10 +39,13 @@ const typeDefs = gql`
   }
 
   type Mutation {
-    addUser(firstName: String!, lastName: String!, email: String!, password: String!): Auth
-    addScore(scores: Int): User
+    addUser(username: String!, email: String!, password: String!): Auth
+    addScore(score: Int): User
     # addLeaderboard(scores: ): Scoreboard
     login(email: String!, password: String!): Auth
+    addFriend(friendId: ID!): User
+    removeFriend(friendId: ID!): User
+    saveQuiz(friendId: ID!): User
   }
 `;
 
