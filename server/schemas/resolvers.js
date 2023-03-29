@@ -19,11 +19,11 @@ const resolvers = {
             return User.findOne({ _id: context.user._id }).populate('friends', 'quizes')
         }
       },
-      quiz: async (parent, {name}) => {
-        return Quiz.findOne( {name} ).populate('scores')
+      quiz: async (parent, {quizId}) => {
+        return Quiz.findOne( {quizId} ).populate('questions', 'scores')
       },
       quizes: async () => {
-        return Quiz.find().populate('scores');
+        return Quiz.find().populate('questions', 'scores');
       }
   },
   Mutation: {

@@ -2,13 +2,19 @@ const { gql } = require('apollo-server-express');
 
 const typeDefs = gql`
 
-  type Quiz {
+  type Question {
     _id: ID
     name: String!
     question: String!
     options:[ String ]!
     answer: String!
     scores: [ User ]
+  }
+
+  type Quiz {
+    _id: ID
+    quizName: String!
+    questions: [ Question ]
   }
 
   type User {
@@ -25,7 +31,7 @@ const typeDefs = gql`
     scores: [User]
   }
 
-  input QuizInfo {
+  input QuestionInfo {
     name: String!
     question: String!
     options:[ String ]!
@@ -39,7 +45,7 @@ const typeDefs = gql`
 
   type Query {
     user(username: String!): User
-    quiz(name: String!): Quiz
+    quiz(quizId: ID): Quiz
     quizes: [Quiz]
     me: User
     leaderboard: [User]
@@ -53,7 +59,7 @@ const typeDefs = gql`
     login(email: String!, password: String!): Auth
     addFriend(friendId: ID!): User
     removeFriend(friendId: ID!): User
-    saveQuiz(quizData: QuizInfo!): User
+    # saveQuiz(quizData: QuizInfo!): User
   }
 `;
 

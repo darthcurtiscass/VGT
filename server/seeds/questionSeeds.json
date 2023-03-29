@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Zelda",
+        "question": "What is the name of the princess in The Legend of Zelda?",
+        "options": ["Zelda", "Ganondorf", "Link", "Impa"],
+        "answer": "Zelda"
+      },
+      {
+        "name": "Zelda",
+        "question": "What is the name of the main protagonist in The Legend of Zelda?",
+        "options": ["Zelda", "Ganondorf", "Link", "Impa"],
+        "answer": "Link"
+      },
+      {
+        "name": "Zelda",
+        "question": "What is the name of the evil sorcerer who serves as the main antagonist in The Legend of Zelda?",
+        "options": ["Zelda", "Ganondorf", "Link", "Impa"],
+        "answer": "Ganondorf"
+      },
+      {
+        "name": "Zelda",
+        "question": "What is the name of the kingdom in which The Legend of Zelda takes place?",
+        "options": ["Hyrule", "Mushroom Kingdom", "Kokiri Forest", "Gerudo Valley"],
+        "answer": "Hyrule"
+      },
+      {
+        "name": "Zelda",
+        "question": "What is the name of the recurring villainous race in The Legend of Zelda?",
+        "options": ["Gorons", "Zoras", "Gerudos", "Bokoblins"],
+        "answer": "Gerudos"
+      },
+      {
+        "name": "Zelda",
+        "question": "What is the name of the fairy companion who assists Link in several Zelda games?",
+        "options": ["Tatl", "Navi", "Midna", "Fi"],
+        "answer": "Navi"
+      },
+      {
+        "name": "Zelda",
+        "question": "What is the name of the instrument that Link uses to play music in The Legend of Zelda: Ocarina of Time?",
+        "options": ["Lyre", "Harp", "Ocarina", "Drums"],
+        "answer": "Ocarina"
+      },
+      {
+        "name": "Zelda",
+        "question": "What is the name of the magical sword that Link often wields in The Legend of Zelda?",
+        "options": ["Excalibur", "Buster Sword", "Master Sword", "Katana"],
+        "answer": "Master Sword"
+      },
+      {
+        "name": "Zelda",
+        "question": "What is the name of the time-traveling character who helps Link in The Legend of Zelda: Ocarina of Time?",
+        "options": ["Sheik", "Impa", "Ruto", "Malon"],
+        "answer": "Sheik"
+      },
+      {
+        "name": "Zelda",
+        "question": "What is the name of the evil creature that serves as the final boss in The Legend of Zelda: Majora's Mask?",
+        "options": ["Ganon", "Dark Link", "Majora", "Vaati"],
+        "answer": "Majora"
+      },
+      {
+        "name": "Zelda",
+        "question": "What is the name of the magical stone that Link must collect in The Legend of Zelda: The Wind Waker?",
+        "options": ["Triforce", "Sheikah Stone", "Korok Seed", "Nayru's Pearl"],
+        "answer": "Nayru's Pearl"
+      },
+      {
+        "name": "Zelda",
+        "question": "What is the name of the villainous sorcerer who serves as the main antagonist in The Legend of Zelda: The Wind Waker?",
+        "options": ["Zant", "Ghirahim", "Vaati", "Ganondorf"],
+        "answer": "Ganondorf"
+      }
+    ]
