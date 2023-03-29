@@ -11,6 +11,13 @@ const typeDefs = gql`
     scores: [ User ]
   }
 
+  type Result {
+    _id: ID
+    score: Int!
+    quiz: String!
+    userId: ID
+  }
+
   type Quiz {
     _id: ID
     quizName: String!
@@ -21,7 +28,7 @@ const typeDefs = gql`
     _id: ID
     username: String!
     email: String!
-    scores: [ Int ]
+    scores: [ Result ]
     friends: [ User ]
     quizes: [ Quiz ]
   }
@@ -46,7 +53,7 @@ const typeDefs = gql`
   type Query {
     user(username: String!): User
     quiz(quizId: ID): Quiz
-    quizes: [Quiz]
+    quizzes: [Quiz]
     me: User
     leaderboard: [User]
     users: [User]
@@ -54,12 +61,10 @@ const typeDefs = gql`
 
   type Mutation {
     addUser(username: String!, email: String!, password: String!): Auth
-    addScore(score: Int): User
-    # addLeaderboard(scores: ): Scoreboard
+    addResult(score: Int!, quiz: String!, userId: ID): User
     login(email: String!, password: String!): Auth
     addFriend(friendId: ID!): User
     removeFriend(friendId: ID!): User
-    # saveQuiz(quizData: QuizInfo!): User
   }
 `;
 

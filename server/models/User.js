@@ -1,8 +1,7 @@
 const mongoose = require('mongoose');
-const quizSchema = require('./Quiz')
+const resultSchema = require('./Result')
 const { Schema, model } = mongoose;
 const bcrypt = require('bcrypt');
-
 
 const userSchema = new Schema({
   username: {
@@ -20,18 +19,14 @@ const userSchema = new Schema({
     required: true,
     minlength: 1
   },
-  scores: [
-    {
-      type: Number,
-    }
-  ],
+  scores: [ resultSchema],
   friends: [
     {
         type: Schema.Types.ObjectId,
         ref: 'user'
     },
   ],
-  quizes: [ 
+  quizzes: [ 
     {
       type: Schema.Types.ObjectId,
       ref: 'quiz'
