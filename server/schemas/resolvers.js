@@ -22,7 +22,7 @@ const resolvers = {
       quiz: async (parent, {quizId}) => {
         return Quiz.findOne( {quizId} ).populate('questions', 'scores')
       },
-      quizes: async () => {
+      quizzes: async () => {
         return Quiz.find().populate('questions', 'scores');
       }
   },
@@ -49,14 +49,14 @@ const resolvers = {
 
       return { token, user };
     },
-    addScore: async (parent, { score }, context) => {
+    addResult: async (parent, { score, quiz,  }, context) => {
       try {
         if(context.user) { 
           return User.findOneAndUpdate(
           {_id: context.user._id},
             {
               $addToSet: {
-                scores: { score }
+                scores: { score, quiz }
               }
             }
           )
@@ -104,28 +104,28 @@ const resolvers = {
         throw new AuthenticationError("you have a clinger")
       }
     },
-    saveQuiz: async (parent, { quizData }, context) => {
-      try {
-        if(context.user) {
-          return User.findOneAndUpdate(
-            { _id: context.user._id },
-            {
-              $addToSet: {
-                quizes: { quizData }
-              }
-            },
-            {
-              new: true,
-              validators: true
-            }
-          )
-        }
-      } catch(err) {
-        console.log(err)
-        throw new AuthenticationError("Not smart enough to save a quiz")
-      }
+    // saveQuiz: async (parent, { quizData }, context) => {
+    //   try {
+    //     if(context.user) {
+    //       return User.findOneAndUpdate(
+    //         { _id: context.user._id },
+    //         {
+    //           $addToSet: {
+    //             quizes: { quizData }
+    //           }
+    //         },
+    //         {
+    //           new: true,
+    //           validators: true
+    //         }
+    //       )
+    //     }
+    //   } catch(err) {
+    //     console.log(err)
+    //     throw new AuthenticationError("Not smart enough to save a quiz")
+    //   }
 
-    }
+    // }
   }
 };
 

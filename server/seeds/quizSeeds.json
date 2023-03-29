@@ -1,36 +1,36 @@
-[{
-  "quizName": "Zelda Quiz",
-  “questions”: [
-    {
-      “name”: “Question 1”,
-      “question”: “What is the name of the princess in The Legend of Zelda?“,
-      “options”: [“Zelda”, “Ganondorf”, “Link”, “Impa”],
-      “answer”: “Zelda”
-    },
-    {
-      “name”: “Question 2”,
-      “question”: “What is the name of the main protagonist in The Legend of Zelda?“,
-      “options”: [“Zelda”, “Ganondorf”, “Link”, “Impa”],
-      “answer”: “Link”
-    },
-    {
-      “name”: “Question 3”,
-      “question”: “What is the name of the evil sorcerer who serves as the main antagonist in The Legend of Zelda?“,
-      “options”: [“Zelda”, “Ganondorf”, “Link”, “Impa”],
-      “answer”: “Ganondorf”
-    },
-    {
-      “name”: “Question 4”,
-      “question”: “What is the name of the kingdom in which The Legend of Zelda takes place?“,
-      “options”: [“Hyrule”, “Mushroom Kingdom”, “Kokiri Forest”, “Gerudo Valley”],
-      “answer”: “Hyrule”
-    },
-    {
-      “name”: “Question 5”,
-      “question”: “What is the name of the recurring villainous race in The Legend of Zelda?“,
-      “options”: [“Gorons”, “Zoras”, “Gerudos”, “Bokoblins”],
-      “answer”: “Gerudos”
-    }
-  ]
-}]
+{
+    "quizName": "Zelda Quiz",
+    "questions": [
+      {
+        "name": "Question 1",
+        "question": "What is the name of the princess in The Legend of Zelda?",
+        "options": ["Zelda", "Ganondorf", "Link", "Impa"],
+        "answer": "Zelda"
+      },
+      {
+        "name": "Question 2",
+        "question": "What is the name of the main protagonist in The Legend of Zelda?",
+        "options": ["Zelda", "Ganondorf", "Link", "Impa"],
+        "answer": "Link"
+      },
+      {
+        "name": "Question 3",
+        "question": "What is the name of the evil sorcerer who serves as the main antagonist in The Legend of Zelda?",
+        "options": ["Zelda", "Ganondorf", "Link", "Impa"],
+        "answer": "Ganondorf"
+      },
+      {
+        "name": "Question 4",
+        "question": "What is the name of the kingdom in which The Legend of Zelda takes place?",
+        "options": ["Hyrule", "Mushroom Kingdom", "Kokiri Forest", "Gerudo Valley"],
+        "answer": "Hyrule"
+      },
+      {
+        "name": "Question 5",
+        "question": "What is the name of the recurring villainous race in The Legend of Zelda?",
+        "options": ["Gorons", "Zoras", "Gerudos", "Bokoblins"],
+        "answer": "Gerudos"
+      }
+    ]
+}
 

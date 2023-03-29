@@ -23,12 +23,6 @@ const questionSchema = new Schema({
         type: String,
         required: true
     },
-    scores: [
-        {
-            type: Schema.Types.ObjectId,
-            ref: 'user'
-        }
-    ]
 })
 
 module.exports = questionSchema;
