@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from '../src/pages/Home';
@@ -8,13 +9,15 @@ import './App.css';
 
 function App() {
   return (
+    
     <Layout style={{fontFamily:"DM Serif Display"}} className="App">
-      <Header/>
+      <BrowserRouter><Header/></BrowserRouter>
       <div className='body-container'>
         <Home/>
       </div>
       <Footer/>
     </Layout>
+    
   );
 }
 
