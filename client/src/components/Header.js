@@ -5,6 +5,7 @@ import { Layout, Menu, theme } from 'antd';
 import Home from '../pages/Home';
 import Leaderboard from '../pages/Leaderboard';
 import Questionnaire from '../pages/Questionnaire';
+import Profile from '../pages/Profile';
 import Signup from '../pages/Signup';
 import Login from '../pages/Login';
 
@@ -64,6 +65,10 @@ function Header() {
             <NavLink to="/quiz">Quiz</NavLink>
           </Menu.Item>
 
+          <Menu.Item key="profile">
+            <NavLink to="/profile">Profile</NavLink>
+          </Menu.Item>
+
           <Menu.Item key="signup" element={<Signup />}>
             <NavLink to="/signup">Signup</NavLink>
           </Menu.Item>
@@ -77,6 +82,7 @@ function Header() {
           <Route exact path="/" element={<Home />} />
           <Route exact path="/leaderboard" element={<Leaderboard />} />
           <Route exact path="/quiz" element={<Questionnaire />} />
+          <Route exact path="/profile" element={<Profile/>} />
           <Route exact path="/signup" element={<Signup />} />
           <Route exact path="/login" element={<Login />} />
         </Routes>
