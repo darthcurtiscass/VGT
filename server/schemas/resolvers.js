@@ -49,7 +49,7 @@ const resolvers = {
 
       return { token, user };
     },
-    addResult: async (parent, { score, quiz,  }, context) => {
+    addResult: async (parent, { score, quiz }, context) => {
       try {
         if(context.user) { 
           return User.findOneAndUpdate(
