@@ -1,36 +1,23 @@
-// scoreboard has a reference to quiz
+const questionSchema = require('./Question');
 const mongoose = require('mongoose');
-const userSchema = require('./User')
 const { Schema, model } = mongoose;
 
+
+
 const quizSchema = new Schema({
-    name: {
+    quizName: {
         type: String,
-        required: true
-    },
-    questions: [
-        {
-            type: String,
-            required: true
-        }
-    ],
-    options: [
-        {
-            type: String,
-            required: true
-        }
-    ],
-    answer: {
-        type: String,
-        required: true
-    },
+        required: true,
+        unique: true
+        },
+    questions: [questionSchema],
     scores: [
         {
             type: Schema.Types.ObjectId,
             ref: 'user'
         }
     ]
-})
+});
 
 const Quiz = mongoose.model('quiz', quizSchema);
 

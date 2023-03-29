@@ -5,7 +5,7 @@ const typeDefs = gql`
   type Quiz {
     _id: ID
     name: String!
-    questions:[ String ]!
+    question: String!
     options:[ String ]!
     answer: String!
     scores: [ User ]
@@ -27,7 +27,7 @@ const typeDefs = gql`
 
   input QuizInfo {
     name: String!
-    questions:[ String ]!
+    question: String!
     options:[ String ]!
     answer: String!
   }
