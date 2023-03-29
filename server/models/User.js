@@ -18,7 +18,7 @@ const userSchema = new Schema({
   password: {
     type: String,
     required: true,
-    // minlength: 3
+    minlength: 1
   },
   scores: [
     {
@@ -31,7 +31,12 @@ const userSchema = new Schema({
         ref: 'user'
     },
   ],
-  quizes: [ quizSchema ]
+  quizes: [ 
+    {
+      type: Schema.Types.ObjectId,
+      ref: 'quiz'
+    },
+   ]
 });
 
 // set up pre-save middleware to create password
@@ -48,6 +53,8 @@ userSchema.pre('save', async function(next) {
 userSchema.methods.isCorrectPassword = async function(password) {
   return await bcrypt.compare(password, this.password);
 };
+
+// add virtual to calculate average score.
 
 const User = mongoose.model('user', userSchema);
 

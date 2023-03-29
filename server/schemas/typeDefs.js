@@ -43,6 +43,7 @@ const typeDefs = gql`
     quizes: [Quiz]
     me: User
     leaderboard: [User]
+    users: [User]
   }
 
   type Mutation {
