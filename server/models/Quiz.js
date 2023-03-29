@@ -1,7 +1,7 @@
 // scoreboard has a reference to quiz
 const mongoose = require('mongoose');
 const userSchema = require('./User')
-const { Schema } = mongoose;
+const { Schema, model } = mongoose;
 
 const quizSchema = new Schema({
     name: {
@@ -24,8 +24,14 @@ const quizSchema = new Schema({
         type: String,
         required: true
     },
-    scores: [ userSchema ]
+    scores: [
+        {
+            type: Schema.Types.ObjectId,
+            ref: 'user'
+        }
+    ]
 })
 
+const Quiz = mongoose.model('quiz', quizSchema);
 
-module.exports = quizSchema;
+module.exports = Quiz;

@@ -1,5 +1,5 @@
 const { AuthenticationError } = require('apollo-server-express');
-const { User, Quiz, } = require('../models');
+const { User, Quiz } = require('../models');
 const { signToken } = require('../utils/auth');
 // const stripe = require('stripe')('sk_test_4eC39HqLyjWDarjtT1zdp7dc');
 
@@ -10,6 +10,9 @@ const resolvers = {
       },
       user: async (parent, { username }) => {
         return User.findOne({ username }).populate('friends', 'quizes');
+      },
+      users: async () => {
+        return User.find().populate('friends', 'quizes');
       },
       me: async (parent, args, context) => {
         if(context.user){
