@@ -77,8 +77,8 @@ export const GET_SPECIFIC_QUIZ = gql`
 
 export const GET_ALL_QUIZZES = gql`
     query quizzes {
-        quiz {
-            _id
+        quiz{
             quizName
         }
+    
     }`

@@ -78,14 +78,14 @@ function Header() {
           </Menu.Item>
         </Menu>
 
-        <Routes>
+        {/* <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/leaderboard" element={<Leaderboard />} />
           <Route exact path="/quiz" element={<Questionnaire />} />
           <Route exact path="/profile" element={<Profile/>} />
           <Route exact path="/signup" element={<Signup />} />
           <Route exact path="/login" element={<Login />} />
-        </Routes>
+        </Routes> */}
 
       </header>
     </div>

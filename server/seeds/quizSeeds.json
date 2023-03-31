@@ -1,4 +1,5 @@
-{
+[
+  {
     "quizName": "Zelda Quiz",
     "questions": [
       {
@@ -32,5 +33,44 @@
         "answer": "Gerudos"
       }
     ]
+},
+
+{
+  "quizName": "Elder Scrolls Quiz",
+  "questions": [
+    {
+      "name": "Question 1",
+      "question": "What is the name of the Dwemer city that disappeared without a trace in the Elder Scrolls universe?",
+      "options": ["Alinor", "Blackreach", "Vvardenfell", "Dwemereth"],
+      "answer": "Dwemereth"
+    },
+    {
+      "name": "Question 2",
+      "question": "What is the name of the legendary sword wielded by the hero of the Elder Scrolls series?",
+      "options": ["Chrysamere", "Umbra", "Goldbrand", "Mehrunes' Razor"],
+      "answer": "Chrysamere"
+    },
+    {
+      "name": "Question 3",
+      "question": "What is the name of the Daedric Prince of Domination?",
+      "options": ["Molag Bal", "Azura", "Sheogorath", "Boethiah"],
+      "answer": "Molag Bal"
+    },
+    {
+      "name": "Question 4",
+      "question": "What is the name of the city that was destroyed by a meteorite in the Elder Scrolls universe?",
+      "options": ["Windhelm", "Cheydinhal", "Vivec City", "Mournhold"],
+      "answer": "Vivec City"
+    },
+    {
+      "name": "Question 5",
+      "question": "What is the name of the elven race that is believed to have created the Aedra and Daedra in the Elder Scrolls universe?",
+      "options": ["Altmer", "Dunmer", "Ayleid", "Falmer"],
+      "answer": "Ayleid"
+    }
+  ]
 }
+
+]
+
 
