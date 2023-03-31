@@ -9,7 +9,7 @@ const ThoughtList = ({ quizzes, title }) => {
 
   return (
     <div>
-      {quizzes &&
+      {
         quizzes.map((quiz) => (
           <div key={quiz._id} className="card mb-3">
             <h4 className="card-header bg-primary text-light p-2 m-0 bg-dark">

@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react';
 import {Layout, theme} from 'antd';
+import { useParams } from 'react-router-dom';
 import Leaderboard from '../components/Leaderboard';
 
 import Question from '../components/Question'
@@ -8,13 +9,18 @@ import Question from '../components/Question'
 import '../App.css';
 import { useQuery }  from '@apollo/client';
 import { GET_SPECIFIC_QUIZ } from '../utils/queries'
+const q = "64262e89bde098b22cc96a1e";
 
-const Home = () => {
-    const { loading, data } = useQuery(GET_SPECIFIC_QUIZ);
-    const quiz = data?.quizzes || []
+
+const Quiz = () => {
+    const { quizId } = useParams();
+    const {  loading, data } = useQuery(GET_SPECIFIC_QUIZ, {
+        variables: { quizId: quizId},
+      });
+  
+    const quiz = data?.quiz || []
 
     console.log(data)
-
     if (!data) return <div>Loading...</div>;
 
     
@@ -22,21 +28,16 @@ const Home = () => {
         <main>
           <div className="flex-row justify-center ">
             <div className=" col-md-10 mb-3 p-3 " style={{  }}>
-                 <div>
-                   <div><h3>Welcome to our website! This is a videogame trivia website made in React and utilizing MongoDB as our database!</h3></div>
-                    <p className='container'>
-                   Sign up for an account and answer trivia to your heart's desire! Make friends and foes in your journey 
-                       to the top of the leader boards!
-                   </p>
-                </div>
+ 
+                 
                 <div className="col-12 col-md-8 mb-3">
-          {loading ? (
+          {/* {loading ? (
             <div>Loading...</div>
-          ) : (
+          ) : ( */}
             <Question
               quiz={quiz}
             />
-          )}
+          {/* )} */}
         </div>
             </div>
           </div>
@@ -46,4 +47,4 @@ const Home = () => {
 }
 
 
-export default Home;
+export default Quiz;

@@ -17,7 +17,7 @@ const resolvers = {
         }
       },
       quiz: async (parent, {quizId}) => {
-        return Quiz.findOne( {quizId} ).populate('questions', 'scores')
+        return Quiz.findOne( {_id: quizId} ).populate('questions', 'scores')
       },
       quizzes: async () => {
         return Quiz.find().populate('questions', 'scores');
