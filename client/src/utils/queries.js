@@ -72,13 +72,15 @@ export const GET_SPECIFIC_QUIZ = gql`
                     }
                 }
             }
+            image
         }
     }`
 
 export const GET_ALL_QUIZZES = gql`
     query quizzes {
-        quiz {
+        quizzes {
             _id
             quizName
+            image
         }
     }`

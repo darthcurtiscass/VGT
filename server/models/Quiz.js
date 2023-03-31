@@ -16,7 +16,10 @@ const quizSchema = new Schema({
             type: Schema.Types.ObjectId,
             ref: 'user'
         }
-    ]
+    ],
+    image: {
+        type: String,
+    }
 });
 
 const Quiz = mongoose.model('quiz', quizSchema);
