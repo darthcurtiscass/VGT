@@ -4,7 +4,7 @@ import { Col, message, Row } from 'antd';
 import { UserOutlined } from '@ant-design/icons';
 import { Avatar, Space } from 'antd'
 import { Card } from 'antd';
-import { Checkbox,Form,Input,} from 'antd';
+import { Checkbox, Form, Input, } from 'antd';
 import { useState } from 'react';
 const { TextArea } = Input;
 const Profile = () => {
@@ -25,35 +25,35 @@ const [componentDisabled, setComponentDisabled] = useState(true);
         <Card
           title="Default size card"
           style={{
-            width:400,
+            width: 300,
             height: 300,
             border: 'solid',
             display: 'center',
           }}
         >
-                <Checkbox
-        checked={componentDisabled}
-        onChange={(e) => setComponentDisabled(e.target.checked)}
-      >
-        Form disabled
-      </Checkbox>
-      <Form
-        labelCol={{
-          span: 4,
-        }}
-        wrapperCol={{
-          span: 14,
-        }}
-        layout="horizontal"
-        disabled={componentDisabled}
-        style={{
-          maxWidth: 600,
-        }}
-      >
-        <Form.Item label="Info:">
-          <TextArea rows={6} />
-        </Form.Item>
-        </Form>
+          <Checkbox
+            checked={componentDisabled}
+            onChange={(e) => setComponentDisabled(e.target.checked)}
+          >
+            Form disabled
+          </Checkbox>
+          <Form
+            labelCol={{
+              span: 4,
+            }}
+            wrapperCol={{
+              span: 14,
+            }}
+            layout="horizontal"
+            disabled={componentDisabled}
+            style={{
+              maxWidth: 600,
+            }}
+          >
+            <Form.Item label="Info:">
+              <TextArea rows={6} />
+            </Form.Item>
+          </Form>
         </Card>
       </Col>
       <Col className="container" span={6}>
