@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.nav a{
+/* .nav a{
   border-radius: 5px;
   background-color: #3b8f8f;
   font-size: larger;
@@ -12,9 +12,10 @@
   border: solid;
   display: flex;
   flex-wrap: wrap;
-}
+} */
 
 .nav {
+  float: right;
   padding: 15px;
   text-decoration:none;
   background-image:  conic-gradient( black , #a57a0e );
@@ -32,10 +33,16 @@
   background: 'rgba(255, 255, 255, 0.2)';
 }
 
+.small-line-break {
+  display: block;
+  height: 0.5em; /* or any other value that you prefer */
+  content: "";
+}
+
 .container {
   border: solid;
   border-color: black;
-  background-color: #a57a0e;
+  background-color: gold;
   font-size: larger;
   display:flexbox;
   margin: 20px;
