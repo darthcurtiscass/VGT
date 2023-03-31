@@ -22,6 +22,7 @@ const typeDefs = gql`
     _id: ID
     quizName: String!
     questions: [ Question ]
+    image: String
   }
 
   type User {

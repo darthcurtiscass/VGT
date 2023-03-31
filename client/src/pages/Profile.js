@@ -77,4 +77,5 @@ if (!data) return <div>Loading...</div>;
     </Row>
   );
 }
+
 export default Profile;
