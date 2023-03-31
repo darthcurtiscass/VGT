@@ -70,7 +70,7 @@ function App() {
                 element={<Profile />}
               /> */}
               <Route 
-                path="/quizzes/:quizId" 
+                path="/quiz/:quizId" 
                 element={<Quiz />}
               />
             </Routes>
