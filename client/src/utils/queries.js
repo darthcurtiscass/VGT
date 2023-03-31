@@ -72,6 +72,7 @@ export const GET_SPECIFIC_QUIZ = gql`
                     }
                 }
             }
+            image
         }
     }`
 
@@ -80,5 +81,6 @@ export const GET_ALL_QUIZZES = gql`
         quiz {
             _id
             quizName
+            image
         }
     }`
