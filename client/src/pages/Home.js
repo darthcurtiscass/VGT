@@ -4,11 +4,6 @@ import {Layout, theme} from 'antd';
 import Leaderboard from '../components/Leaderboard';
 import '../App.css';
 
-
-
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-
 const {Sider} = Layout;
 
 const Home = () => {
