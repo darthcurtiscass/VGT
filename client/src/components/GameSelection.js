@@ -1,26 +1,22 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
-const QuizList = ({
-    quizzes,
-  showTitle = true,
-  showUsername = true,
-}) => {
-    if (!quizzes.length) {
-        return <h3>No quizzes Yet</h3>;
-      }
-return (
-    
+const ThoughtList = ({ quizzes, title }) => {
+  if (!quizzes.length) {
+    return <h3>No Thoughts Yet</h3>;
+  }
+
+  return (
     <div>
-        <Link>
-            {quizzes.map((quiz) => (
-            <div className="card-body bg-light p-2">
-              <p>{quiz.quizName}</p>
-            </div>
-            ))}
-         </Link>
+      {quizzes &&
+        quizzes.map((quiz) => (
+          <div key={quiz._id} className="card mb-3">
+            <h4 className="card-header bg-primary text-light p-2 m-0">
+              {quiz.quizName} <br />
+            </h4>
+          </div>
+        ))}
     </div>
   );
-            }
+};
 
-            export default QuizList;
+export default ThoughtList;

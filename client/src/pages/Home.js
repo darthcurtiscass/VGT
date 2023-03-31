@@ -6,26 +6,22 @@ import Leaderboard from '../components/Leaderboard';
 import GameSelection from '../components/GameSelection'
 
 import '../App.css';
-
 import { useQuery }  from '@apollo/client';
 import { GET_ALL_QUIZZES } from '../utils/queries'
 
-const {Sider} = Layout;
-
 const Home = () => {
     const { loading, data } = useQuery(GET_ALL_QUIZZES);
-    const quizzes = data?.quizName || []
+    const quizzes = data?.quizzes || []
 
     console.log(data)
+
+    if (!data) return <div>Loading...</div>;
 
     
     return (
         <main>
           <div className="flex-row justify-center">
-            <div
-              className="col-12 col-md-10 mb-3 p-3"
-              style={{  }}
-            >
+            <div className="col-12 col-md-10 mb-3 p-3" style={{  }}>
                  <div>
                    <div><h3>Welcome to our website! This is a videogame trivia website made in React and utilizing MongoDB as our database!</h3></div>
                     <p className='container'>
@@ -33,16 +29,15 @@ const Home = () => {
                        to the top of the leader boards!
                    </p>
                 </div>
-              <GameSelection/>
-            </div>
-            <div className="col-12 col-md-8 mb-3">
-              {loading ? (
-                <div>Loading...</div>
-              ) : (
-                <GameSelection
-                  quizzes={quizzes}
-                />
-              )}
+                <div className="col-12 col-md-8 mb-3">
+          {loading ? (
+            <div>Loading...</div>
+          ) : (
+            <GameSelection
+              quizzes={quizzes}
+            />
+          )}
+        </div>
             </div>
           </div>
         </main>
