@@ -52,7 +52,7 @@ export const GET_SPECIFIC_USER = gql`
     }`
 
 export const GET_SPECIFIC_QUIZ = gql`
-    query quiz($quizId: ID) {
+    query quiz($quizId: ID!) {
         quiz(quizId: $quizId) {
             _id
             quizName
@@ -62,17 +62,17 @@ export const GET_SPECIFIC_QUIZ = gql`
                 options
                 answer
             }
-            scores {
-                user {
-                    _id
-                    scores {
-                        _id
-                        score
-                        quiz
-                    }
-                }
-            }
-            image
+            # scores {
+            #     user {
+            #         _id
+            #         scores {
+            #             _id
+            #             score
+            #             quiz
+            #         }
+            #     }
+            # }
+            # image
         }
     }`
 
