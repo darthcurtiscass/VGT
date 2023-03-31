@@ -6,9 +6,18 @@ import { Avatar, Space } from 'antd'
 import { Card } from 'antd';
 import { Checkbox,Form,Input,} from 'antd';
 import { useState } from 'react';
+import { GET_ME } from '../utils/queries';
+import { useQuery }  from '@apollo/client';
 const { TextArea } = Input;
 const Profile = () => {
 const [componentDisabled, setComponentDisabled] = useState(true);
+
+const { loading, data } = useQuery(GET_ME);
+const me = data?.me || []
+
+console.log(data)
+
+if (!data) return <div>Loading...</div>;
 
   return (
     <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
@@ -21,7 +30,13 @@ const [componentDisabled, setComponentDisabled] = useState(true);
         </Space>
       </Col>
       <Col className="container" span={6}>
-        <div><h1>Description</h1></div>
+        <div>
+          <div key={me._id} className="card mb-3">
+            <h4 className="card-header bg-primary text-light p-2 m-0 bg-dark">
+              {me.username}<br />
+            </h4>
+          </div>
+         </div>
         <Card
           title="Default size card"
           style={{
@@ -57,7 +72,7 @@ const [componentDisabled, setComponentDisabled] = useState(true);
         </Card>
       </Col>
       <Col className="container" span={6}>
-        <div><h1>Contact Informantion</h1></div>
+        <div><h1>Friends</h1></div>
       </Col>
     </Row>
   );

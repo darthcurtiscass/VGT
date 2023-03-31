@@ -20,8 +20,8 @@ const Home = () => {
     
     return (
         <main>
-          <div className="flex-row justify-center">
-            <div className="col-12 col-md-10 mb-3 p-3" style={{  }}>
+          <div className="flex-row justify-center ">
+            <div className=" col-md-10 mb-3 p-3 " style={{  }}>
                  <div>
                    <div><h3>Welcome to our website! This is a videogame trivia website made in React and utilizing MongoDB as our database!</h3></div>
                     <p className='container'>

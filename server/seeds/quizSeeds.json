@@ -69,6 +69,72 @@
       "answer": "Ayleid"
     }
   ]
+},
+{
+  "quizName": "Super Metroid Quiz",
+  "image": "https://i.imgur.com/R76tZwd.jpg",
+  "questions": [
+    {
+      "name": "Question 1",
+      "question": "What is the name of the main protagonist in Super Metroid?",
+      "options": ["Samus Aran", "Master Chief", "Isaac Clarke", "Nathan Drake"],
+      "answer": "Samus Aran"
+    },
+    {
+      "name": "Question 2",
+      "question": "What is the name of the planet on which Super Metroid takes place?",
+      "options": ["Zebes", "Tallon IV", "Aether", "SR388"],
+      "answer": "Zebes"
+    },
+    {
+      "name": "Question 3",
+      "question": "What is the name of the species that Samus Aran belongs to?",
+      "options": ["Human", "Chozo", "Metroid", "Space Pirate"],
+      "answer": "Human"
+    },
+    {
+      "name": "Question 4",
+      "question": "What is the name of the weapon used to destroy the Metroids?",
+      "options": ["Plasma Beam", "Wave Beam", "Ice Beam", "Missiles"],
+      "answer": "Missiles"
+    },
+    {
+      "name": "Question 5",
+      "question": "What is the name of the giant, biomechanical creature that serves as the final boss in Super Metroid?",
+      "options": ["Mother Brain", "Kraid", "Ridley", "Crocomire"],
+      "answer": "Mother Brain"
+    },
+    {
+      "name": "Question 6",
+      "question": "What is the name of the ancient Chozo artifact that grants Samus new abilities?",
+      "options": ["Varia Suit", "Gravity Suit", "Power Suit", "Morph Ball"],
+      "answer": "Power Suit"
+    },
+    {
+      "name": "Question 7",
+      "question": "What is the name of the robotic security system that patrols the ruins on Zebes?",
+      "options": ["R.O.B.", "G.F.S. Olympus", "Mother Brain", "Kraid"],
+      "answer": "R.O.B."
+    },
+    {
+      "name": "Question 8",
+      "question": "What is the name of the dark version of Samus that serves as a recurring enemy in the Metroid series?",
+      "options": ["Dark Samus", "Omega Metroid", "SA-X", "Phantoon"],
+      "answer": "Dark Samus"
+    },
+    {
+      "name": "Question 9",
+      "question": "What is the name of the alien race that is responsible for creating the Metroids?",
+      "options": ["X Parasites", "Chozo", "Space Pirates", "The Luminoth"],
+      "answer": "Chozo"
+    },
+    {
+      "name": "Question 10",
+      "question": "What is the name of the energy that powers Samus's suit and weapons?",
+      "options": ["Phazon", "Zebetite", "Aether", "Chozo DNA"],
+      "answer": "Phazon"
+    }
+  ]
 }
 
 ]

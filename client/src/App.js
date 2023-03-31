@@ -45,7 +45,7 @@ function App() {
   return (
     <ApolloProvider client={client}>
       <Router>
-        <Layout style={{ fontFamily: "DM Serif Display" }} className="App">
+        <Layout style={{ fontFamily: "DM Serif Display" }} className="App bg-secondary">
           <Header />
           <div>
             <Routes>
@@ -62,7 +62,7 @@ function App() {
                 element={<Signup />}
               />
               <Route 
-                path="/me" 
+                path="/profile" 
                 element={<Profile />}
               />
               {/* <Route 

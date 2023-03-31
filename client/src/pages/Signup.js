@@ -229,7 +229,7 @@
 // };
 // export default Signup;
 
-
+import gameImg from '../assets/images/game.jpeg'
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -273,8 +273,9 @@ const Signup = () => {
   return (
     <main className="flex-row justify-center mb-4">
       <div className="col-12 col-lg-10">
-        <div className="card">
-          <h4 className="card-header bg-dark text-light p-2">Sign Up</h4>
+        <div className="card w-75 mx-auto bg-dark">
+          <h4 className="card-header w-100 mx-auto bg-dark text-light p-2">Sign Up</h4>
+          <img src={gameImg} alt="User profile" />
           <div className="card-body">
             {data ? (
               <p>
@@ -308,7 +309,7 @@ const Signup = () => {
                   onChange={handleChange}
                 />
                 <button
-                  className="btn btn-block btn-primary"
+                  className="btn-sm btn-block btn-primary"
                   style={{ cursor: 'pointer' }}
                   type="submit"
                 >

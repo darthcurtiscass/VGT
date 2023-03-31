@@ -48,10 +48,8 @@ function Header() {
         </nav> */}
 
         <Menu
-          mode='horizontal'
-          style={{
-            backgroundColor: 'gold',
-          }}>
+          mode='horizontal' className = "btn btn-warning"
+          >
 
           <Menu.Item key="home">
             <NavLink to="/">Home</NavLink>

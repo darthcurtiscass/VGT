@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import { useMutation } from '@apollo/client';
 import { Link } from 'react-router-dom';
 
+import zeldaWave from '../assets/images/zelda-wave.jpeg'
+
 import Auth from '../utils/auth';
 import { LOGIN_USER } from '../utils/mutations';
 
@@ -49,8 +51,9 @@ const LoginForm = () => {
 return (
   <main className="flex-row justify-center mb-4">
     <div className="col-12 col-lg-10">
-      <div className="card">
+      <div className="card w-75 mx-auto bg-dark">
         <h4 className="card-header bg-dark text-light p-2">Login</h4>
+        <img src={zeldaWave} alt="User profile" />
         <div className="card-body">
           {data ? (
             <p>
@@ -76,7 +79,7 @@ return (
                 onChange={handleInputChange}
               />
               <button
-                className="btn btn-block btn-primary"
+                className="btn-sm btn-block btn-dark"
                 style={{ cursor: 'pointer' }}
                 type="submit"
               >
