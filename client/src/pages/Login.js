@@ -1,4 +1,6 @@
 import { Button, Checkbox, Form, Input } from 'antd';
+import '../App.css';
+
 const onFinish = (values) => {
   console.log('Success:', values);
 };
@@ -7,6 +9,7 @@ const onFinishFailed = (errorInfo) => {
 };
 const App = () => (
   <Form
+  className='container'
     name="basic"
     labelCol={{
       span: 8,

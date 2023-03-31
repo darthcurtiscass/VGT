@@ -93,6 +93,7 @@ const Signup = () => {
       form={form}
       name="register"
       onFinish={onFinish}
+      className="container"
       initialValues={{
         residence: ['zhejiang', 'hangzhou', 'xihu'],
         prefix: '86',
@@ -177,7 +178,7 @@ const Signup = () => {
         label="Intro"
         rules={[
           {
-            required: true,
+            required: false,
             message: 'Please input Intro',
           },
         ]}
