@@ -44,8 +44,13 @@ function App() {
 
     <Layout style={{ fontFamily: "DM Serif Display" }} className="App">
       <BrowserRouter>
+      <div className='body-container'>
         <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+      </div>
       </BrowserRouter>
+      <div className='container'>
+
+      </div>
       <Footer />
     </Layout>
 
