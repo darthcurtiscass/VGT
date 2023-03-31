@@ -20,10 +20,14 @@ const Home = () => {
     
     return (
         <main>
-          <div className="flex-row justify-center ">
-            <div className=" col-md-10 mb-3 p-3 " style={{  }}>
+          <div className="flex-row justify-center">
+            <div className=" col-md-10 mb-3 p-3 mx-auto" style={{  }}>
                  <div>
-                   <div><h3>Welcome to our website! This is a videogame trivia website made in React and utilizing MongoDB as our database!</h3></div>
+                    <div class="card">
+                    <div class="card-body text-white bg-dark">
+                    <h3>Welcome to our website! This is a videogame trivia website made in React and utilizing MongoDB as our database!</h3>
+                    </div>
+                    </div>
                     <p className='container'>
                    Sign up for an account and answer trivia to your heart's desire! Make friends and foes in your journey 
                        to the top of the leader boards!

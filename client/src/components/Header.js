@@ -15,7 +15,7 @@ function Header() {
     <div>
       <header style={{ position: 'sticky', top: 0, zIndex: 1, width: '100%' }} className="App-header">
 
-        <div style={{
+        <div className='bg-warning' style={{
           float: 'left',
           width: 120,
           height: 31,
@@ -46,7 +46,7 @@ function Header() {
             </div>
           </section>
         </nav> */}
-
+        <br className='small-line-break '/>
         <Menu
           mode='horizontal' className = "btn btn-warning"
           >
@@ -57,10 +57,6 @@ function Header() {
 
           <Menu.Item key="leaderboard">
             <NavLink to="/leaderboard">Leaderboard</NavLink>
-          </Menu.Item>
-
-          <Menu.Item key="quiz">
-            <NavLink to="/quiz">Quiz</NavLink>
           </Menu.Item>
 
           <Menu.Item key="profile">
@@ -86,6 +82,7 @@ function Header() {
         </Routes> */}
 
       </header>
+      <br className='small-line-break'/>
     </div>
   );
 }
