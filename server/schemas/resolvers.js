@@ -5,9 +5,6 @@ const { signToken } = require('../utils/auth');
 
 const resolvers = {
   Query: {
-      leaderboard: async () => {
-        return User.find().populate('quizes');
-      },
       user: async (parent, { username }) => {
         return User.findOne({ username }).populate('friends', 'quizes');
       },
@@ -63,7 +60,7 @@ const resolvers = {
         }
       } catch(err) {
         console.log(err)
-        throw new AuthenticationError("couldn't save your score. You know nothing.")
+        throw new AuthenticationError("couldn't save your score. Your knowledge is lacking. Learn to read.")
       }
     },
     addFriend: async (parent, { friendId }, context) => {

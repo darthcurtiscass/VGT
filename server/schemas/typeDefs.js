@@ -33,11 +33,6 @@ const typeDefs = gql`
     quizes: [ Quiz ]
   }
 
-  type Leaderboard {
-    _id: ID
-    scores: [User]
-  }
-
   input QuestionInfo {
     name: String!
     question: String!
@@ -55,7 +50,6 @@ const typeDefs = gql`
     quiz(quizId: ID): Quiz
     quizzes: [Quiz]
     me: User
-    leaderboard: [User]
     users: [User]
   }
 
