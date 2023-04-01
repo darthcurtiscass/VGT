@@ -11,11 +11,11 @@ const ThoughtList = ({ quizzes, title }) => {
     <div>
       {
         quizzes.map((quiz) => (
-          <div key={quiz._id} className="card mb-3">
-            <h4 className="card-header bg-primary text-light p-2 m-0 bg-dark">
+
+            <h4 className="">
               <NavLink to={`/quiz/${quiz._id}`}>{quiz.quizName}</NavLink> <br />
             </h4>
-          </div>
+
         ))}
     </div>
   );

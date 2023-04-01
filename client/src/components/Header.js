@@ -18,9 +18,8 @@ function Header() {
         <div className='bg-warning' style={{
           float: 'left',
           width: 120,
-          height: 31,
+          height: 40,
           margin: '8px 8px 8px 8px',
-          padding: '8px 0px 8px 0px',
           background: 'gold',
           fontFamily: '',
         }}>
@@ -63,7 +62,7 @@ function Header() {
             <NavLink to="/profile">Profile</NavLink>
           </Menu.Item>
 
-          <Menu.Item key="signup" element={<Signup />}>
+          <Menu.Item key="signup">
             <NavLink to="/signup">Signup</NavLink>
           </Menu.Item>
 

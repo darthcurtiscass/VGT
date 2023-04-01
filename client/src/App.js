@@ -48,9 +48,9 @@ function App() {
   return (
     <ApolloProvider client={client}>
       <Router>
-        <Layout style={{ fontFamily: "DM Serif Display" }} className="App bg-secondary">
+        <Layout style={{ fontFamily: "DM Serif Display" }} className="App bg-dark">
           <Header />
-          <div>
+          <div className='body-container bg-dark'>
             <Routes>
               <Route 
                 path="/"
