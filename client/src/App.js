@@ -42,6 +42,9 @@ const client = new ApolloClient({
 });
 
 function App() {
+  const [score, setScore] = useState(0);
+  console.log(score)
+  
   return (
     <ApolloProvider client={client}>
       <Router>
@@ -71,7 +74,9 @@ function App() {
               /> */}
               <Route 
                 path="/quiz/:quizId" 
-                element={<Quiz />}
+                element={<Quiz 
+                score={score}
+                setScore={setScore}/>}
               />
             </Routes>
           </div>

@@ -12,7 +12,7 @@ import { GET_SPECIFIC_QUIZ } from '../utils/queries'
 const q = "64262e89bde098b22cc96a1e";
 
 
-const Quiz = () => {
+const Quiz = ({score, setScore}) => {
     const { quizId } = useParams();
     const {  loading, data } = useQuery(GET_SPECIFIC_QUIZ, {
         variables: { quizId: quizId},
@@ -36,6 +36,8 @@ const Quiz = () => {
           ) : ( */}
             <Question
               quiz={quiz}
+                score={score}
+                setScore={setScore}
             />
           {/* )} */}
         </div>
