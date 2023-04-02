@@ -42,19 +42,22 @@ const client = new ApolloClient({
 });
 
 function App() {
+  const [image, setImage] = useState(0)
   const [score, setScore] = useState(0);
   console.log(score)
   
   return (
     <ApolloProvider client={client}>
       <Router>
-        <Layout style={{ fontFamily: "DM Serif Display" }} className="App bg-dark">
+        <Layout style={{ fontFamily: "DM Serif Display" }} className="App bg-secondary">
           <Header />
-          <div className='body-container bg-dark'>
+          <div className='body-container bg-secondary'>
             <Routes>
               <Route 
                 path="/"
-                element={<Home />}
+                element={<Home 
+                image={image}
+                setImage={setImage}/>}
               />
               <Route 
                 path="/login" 

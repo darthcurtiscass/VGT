@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Route, NavLink, Link, Routes } from 'react-router-dom';
 
-const ThoughtList = ({ quizzes, title }) => {
+const QuizList = ({ quizzes, title }) => {
   if (!quizzes.length) {
     return <h3>No Thoughts Yet</h3>;
   }
@@ -21,4 +21,4 @@ const ThoughtList = ({ quizzes, title }) => {
   );
 };
 
-export default ThoughtList;
+export default QuizList;

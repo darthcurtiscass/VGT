@@ -1,6 +1,7 @@
 [
   {
     "quizName": "Zelda Quiz",
+    "image": "https://static.wikia.nocookie.net/0dbdbfa4-27f8-4311-ae25-43f6de8fea04/scale-to-width-down/800",
     "questions": [
       {
         "name": "Question 1",
@@ -37,6 +38,7 @@
 
 {
   "quizName": "Elder Scrolls Quiz",
+  "image": "https://store-images.s-microsoft.com/image/apps.45825.13609356959011899.0daad853-0f64-4e2d-a1ae-742d439b2969.166a2067-3fb8-401e-8506-596019408cdc?mode=scale&q=90&h=1080&w=1920&background=%23FFFFFF",
   "questions": [
     {
       "name": "Question 1",
@@ -72,7 +74,7 @@
 },
 {
   "quizName": "Super Metroid Quiz",
-  "image": "https://i.imgur.com/R76tZwd.jpg",
+  "image": "https://images.nintendolife.com/18e5e3b48ef17/super-metroid.900x.jpg",
   "questions": [
     {
       "name": "Question 1",
@@ -133,6 +135,72 @@
       "question": "What is the name of the energy that powers Samus's suit and weapons?",
       "options": ["Phazon", "Zebetite", "Aether", "Chozo DNA"],
       "answer": "Phazon"
+    }
+  ]
+},
+{
+  "quizName": "Sly Cooper Quiz",
+  "image": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/83c1123ae181c7e063598a278fbb72d3.jpg",
+  "questions": [
+    {
+      "name": "Question 1",
+      "question": "What is the name of Sly's childhood friend and partner in crime?",
+      "options": ["Bentley", "Murray", "Dimitri", "Penelope"],
+      "answer": "Bentley"
+    },
+    {
+      "name": "Question 2",
+      "question": "What is the name of the villainous organization that Sly and his friends fight against?",
+      "options": ["The Fiendish Five", "The Klaww Gang", "Interpol", "The Cooper Clan"],
+      "answer": "The Klaww Gang"
+    },
+    {
+      "name": "Question 3",
+      "question": "What is the name of the infamous thief and ancestor of Sly Cooper?",
+      "options": ["Conner Cooper", "Rioichi Cooper", "Salim al-Kupar", "Thaddeus Winslow Cooper III"],
+      "answer": "Thaddeus Winslow Cooper III"
+    },
+    {
+      "name": "Question 4",
+      "question": "What is the name of the mechanical owl that serves as Sly's guide and mentor?",
+      "options": ["Socrates", "Archimedes", "Aristotle", "Leonardo"],
+      "answer": "Bentley"
+    },
+    {
+      "name": "Question 5",
+      "question": "What is the name of the main antagonist in the Sly Cooper series?",
+      "options": ["Dr. M", "Clockwerk", "Arpeggio", "Jean Bison"],
+      "answer": "Clockwerk"
+    },
+    {
+      "name": "Question 6",
+      "question": "What is the name of the criminal organization that Carmelita Fox works for?",
+      "options": ["Interpol", "The FBI", "The CIA", "The KGB"],
+      "answer": "Interpol"
+    },
+    {
+      "name": "Question 7",
+      "question": "What is the name of the Australian guru who teaches Sly new abilities in Sly 3?",
+      "options": ["The Guru", "The Contessa", "Rajan", "Jean Bison"],
+      "answer": "The Guru"
+    },
+    {
+      "name": "Question 8",
+      "question": "What is the name of the Cooper family's ancestral cane, which is passed down from generation to generation?",
+      "options": ["The Cooper Cane", "The Thievius Raccoonus", "The Master Thieves' Handbook", "The Sly Collection"],
+      "answer": "The Thievius Raccoonus"
+    },
+    {
+      "name": "Question 9",
+      "question": "What is the name of the group of villains that replaces the Fiendish Five as the primary antagonists in Sly 2?",
+      "options": ["The Contessa's Army", "The Claw Gang", "The Black Baron's Air Force", "The Klaww Gang"],
+      "answer": "The Claw Gang"
+    },
+    {
+      "name": "Question 10",
+      "question": "What is the name of the female panda who becomes Murray's love interest in Sly 3?",
+      "options": ["Penny", "Peggy", "Petunia", "Priscilla"],
+      "answer": "Penelope"
     }
   ]
 }

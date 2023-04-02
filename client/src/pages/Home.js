@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom';
 import {Layout, Carousel, theme} from 'antd';
 import Leaderboard from '../components/Leaderboard';
 
+import ImgCarousel from '../components/ImgCarousel'
 import GameSelection from '../components/GameSelection'
 
 import '../App.css';
@@ -24,7 +25,7 @@ const contentStyle = {
 
   }
 
-const Home = () => {
+const Home = ({image, setImage}) => {
     const { loading, data } = useQuery(GET_ALL_QUIZZES);
     const quizzes = data?.quizzes || []
 
@@ -32,34 +33,20 @@ const Home = () => {
 
     if (!data) return <div>Loading...</div>;
 
+   
     
     return (
         <main>
             <div className="flex-row justify-center">
                 <div className=" col-md-10 mb-3 p-3 mx-auto" style={{}}>
-                    <div>
-                        <div class="card">
-                            <div class="card-body text-white bg-dark">
-                                <h3>Welcome to our website! This is a videogame trivia website made in React and utilizing MongoDB as our database!</h3>
-                            </div>
-                        </div>
-                        <p className='container'>
-                            Sign up for an account and answer trivia to your heart's desire! Make friends and foes in your journey
-                            to the top of the leader boards!
-                        </p>
-                    </div>
-                    <Carousel autoplay>
-                        <div>
-                            <h3 style={contentStyle}><GameSelection quizzes={quizzes}/></h3>
-                        </div>
-                        <div>
-                            <h3 style={contentStyle}>Super Metroid</h3>
-                        </div>
-                        <div>
-                            <h3 style={contentStyle}>Elder Scrolls</h3>
-                        </div>
-                    </Carousel>
-                    <div className="">
+
+                <Layout className='bg-secondary'>
+                <ImgCarousel quizzes={quizzes} image={image} setImage={setImage} />
+                
+                </Layout>
+                </div>
+            </div>
+            <div className="">
                         {loading ? (
                             <div>Loading...</div>
                         ) : (
@@ -68,8 +55,6 @@ const Home = () => {
                             />
                         )}
                     </div>
-                </div>
-            </div>
         </main>
     );
 
