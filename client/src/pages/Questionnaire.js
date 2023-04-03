@@ -1,15 +1,13 @@
 import React from 'react';
-import ReactDOM from 'react';
-import {Layout, theme} from 'antd';
+
 import { useParams } from 'react-router-dom';
-import Leaderboard from '../components/Leaderboard';
+
 
 import Question from '../components/Question'
 
 import '../App.css';
 import { useQuery }  from '@apollo/client';
 import { GET_SPECIFIC_QUIZ } from '../utils/queries'
-const q = "64262e89bde098b22cc96a1e";
 
 
 const Quiz = ({score, setScore}) => {
@@ -22,6 +20,8 @@ const Quiz = ({score, setScore}) => {
 
     console.log(data)
     if (!data) return <div>Loading...</div>;
+
+    
 
     
     return (

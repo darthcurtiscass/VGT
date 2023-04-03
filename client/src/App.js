@@ -15,7 +15,7 @@ import {
 import { setContext }  from '@apollo/client/link/context'
 
 import Home from './pages/Home';
-import Leaderboard from './pages/Leaderboard';
+import Leaderboard from './pages/ScoresPage';
 import Quiz from './pages/Questionnaire';
 import Profile from './pages/Profile';
 import Signup from './pages/Signup';

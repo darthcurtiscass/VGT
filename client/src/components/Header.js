@@ -3,7 +3,7 @@ import { Route, NavLink, Link, Routes } from 'react-router-dom';
 import '../../src/App.css';
 import { Layout, Menu, theme } from 'antd';
 import Home from '../pages/Home';
-import Leaderboard from '../pages/Leaderboard';
+import Leaderboard from '../pages/ScoresPage';
 import Questionnaire from '../pages/Questionnaire';
 import Profile from '../pages/Profile';
 import Signup from '../pages/Signup';

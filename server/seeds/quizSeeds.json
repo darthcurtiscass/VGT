@@ -203,6 +203,402 @@
       "answer": "Penelope"
     }
   ]
+},
+{
+  "quizName": "The Last of Us Quiz",
+  "image": "https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/01/the-last-of-us.jpg",
+  "questions": [
+    {
+      "name": "Question 1",
+      "question": "What is the name of the fungal infection that has devastated humanity in The Last of Us?",
+      "options": ["Cordyceps", "Aspergillus", "Athlete's Foot", "Ringworm"],
+      "answer": "Cordyceps"
+    },
+    {
+      "name": "Question 2",
+      "question": "What is the name of the main protagonist in The Last of Us?",
+      "options": ["Ellie", "Joel", "Tommy", "Bill"],
+      "answer": "Joel"
+    },
+    {
+      "name": "Question 3",
+      "question": "What is the name of the organization that is pursuing Ellie in The Last of Us?",
+      "options": ["The Fireflies", "The Hunters", "The Military", "The Scavengers"],
+      "answer": "The Fireflies"
+    },
+    {
+      "name": "Question 4",
+      "question": "What is the name of the young girl that Joel is tasked with protecting in The Last of Us?",
+      "options": ["Tess", "Sarah", "Maria", "Ellie"],
+      "answer": "Ellie"
+    },
+    {
+      "name": "Question 5",
+      "question": "What is the name of the city where the majority of The Last of Us takes place?",
+      "options": ["Boston", "New York", "Pittsburgh", "Seattle"],
+      "answer": "Boston"
+    },
+    {
+      "name": "Question 6",
+      "question": "What is the name of the faction that controls the Boston quarantine zone in The Last of Us?",
+      "options": ["The Fireflies", "The Hunters", "The Military", "The Scavengers"],
+      "answer": "The Military"
+    },
+    {
+      "name": "Question 7",
+      "question": "What is the name of the antagonist that Joel and Ellie encounter towards the end of The Last of Us?",
+      "options": ["David", "Robert", "Tommy", "Marlene"],
+      "answer": "David"
+    },
+    {
+      "name": "Question 8",
+      "question": "What is the name of the group of survivors that Joel and Ellie meet on their journey in The Last of Us?",
+      "options": ["The Fireflies", "The Hunters", "The Ishmaelites", "The Ravens"],
+      "answer": "The Hunters"
+    },
+    {
+      "name": "Question 9",
+      "question": "What is the name of the weapon that Joel crafts using melee weapons and duct tape in The Last of Us?",
+      "options": ["Shiv", "Molotov", "Smoke Bomb", "Nail Bomb"],
+      "answer": "Shiv"
+    },
+    {
+      "name": "Question 10",
+      "question": "What is the name of the group of bandits that Joel and Ellie encounter in Pittsburgh in The Last of Us?",
+      "options": ["The Fireflies", "The Hunters", "The Cannibals", "The Raiders"],
+      "answer": "The Cannibals"
+    }
+  ]
+},
+{
+  "quizName": "Halo Quiz",
+  "image": "https://assets.reedpopcdn.com/digitalfoundry-2021-halo-combat-evolved-season-7-master-chief-collection-1622735120728.jpg/BROK/thumbnail/1600x900/quality/100/digitalfoundry-2021-halo-combat-evolved-season-7-master-chief-collection-1622735120728.jpg",
+  "questions": [
+    {
+      "name": "Question 1",
+      "question": "What is the name of the main protagonist in the Halo series?",
+      "options": ["Master Chief", "Sergeant Johnson", "Cortana", "Arbiter"],
+      "answer": "Master Chief"
+    },
+    {
+      "name": "Question 2",
+      "question": "What is the name of the artificial intelligence companion that assists Master Chief throughout the Halo series?",
+      "options": ["Cortana", "Oracle", "Mendicant Bias", "343 Guilty Spark"],
+      "answer": "Cortana"
+    },
+    {
+      "name": "Question 3",
+      "question": "What is the name of the alien race that is the primary antagonist in the Halo series?",
+      "options": ["The Covenant", "The Prometheans", "The Forerunners", "The Flood"],
+      "answer": "The Covenant"
+    },
+    {
+      "name": "Question 4",
+      "question": "What is the name of the advanced armor that Master Chief wears throughout the Halo series?",
+      "options": ["MJOLNIR", "SPARTAN", "ODST", "UNSC"],
+      "answer": "MJOLNIR"
+    },
+    {
+      "name": "Question 5",
+      "question": "What is the name of the planet where the first Halo game takes place?",
+      "options": ["Reach", "Installation 04", "New Mombasa", "Delta Halo"],
+      "answer": "Installation 04"
+    },
+    {
+      "name": "Question 6",
+      "question": "What is the name of the superweapon that the Covenant seeks to activate in Halo 2?",
+      "options": ["The Ark", "The Halo Array", "The Composer", "The Conduit"],
+      "answer": "The Halo Array"
+    },
+    {
+      "name": "Question 7",
+      "question": "What is the name of the first-person shooter mode in the Halo games that allows players to compete against each other?",
+      "options": ["Campaign", "Forge", "Firefight", "Multiplayer"],
+      "answer": "Multiplayer"
+    },
+    {
+      "name": "Question 8",
+      "question": "What is the name of the alien race that aids Master Chief in Halo 3?",
+      "options": ["The Elites", "The Grunts", "The Brutes", "The Hunters"],
+      "answer": "The Elites"
+    },
+    {
+      "name": "Question 9",
+      "question": "What is the name of the group of human soldiers that Master Chief belongs to in the Halo series?",
+      "options": ["The Marines", "The ODSTs", "The Spartans", "The Rangers"],
+      "answer": "The Spartans"
+    },
+    {
+      "name": "Question 10",
+      "question": "What is the name of the game developer that created the Halo series?",
+      "options": ["Bungie", "343 Industries", "BioWare", "Infinity Ward"],
+      "answer": "Bungie"
+    }
+  ]
+},
+{
+  "quizName": "Dark Souls Quiz",
+  "image": "https://static.bandainamcoent.eu/high/dark-souls/dark-souls-3/00-page-setup/ds3_game-thumbnail.jpg",
+  "questions": [
+    {
+      "name": "Question 1",
+      "question": "What is the name of the protagonist in Dark Souls?",
+      "options": ["The Chosen Undead", "The Dragonborn", "The Ashen One", "The Hunter"],
+      "answer": "The Chosen Undead"
+    },
+    {
+      "name": "Question 2",
+      "question": "What is the name of the land where Dark Souls takes place?",
+      "options": ["Lordran", "Drangleic", "Lothric", "Boletaria"],
+      "answer": "Lordran"
+    },
+    {
+      "name": "Question 3",
+      "question": "What is the name of the covenant that focuses on cooperative gameplay in Dark Souls?",
+      "options": ["The Warriors of Sunlight", "The Darkwraiths", "The Blades of the Darkmoon", "The Way of White"],
+      "answer": "The Warriors of Sunlight"
+    },
+    {
+      "name": "Question 4",
+      "question": "What is the name of the powerful dragon that the player character can defeat in Dark Souls?",
+      "options": ["Kalameet", "Seath", "Gwyn", "The Bed of Chaos"],
+      "answer": "Kalameet"
+    },
+    {
+      "name": "Question 5",
+      "question": "What is the name of the system that governs the use of magic in Dark Souls?",
+      "options": ["Attunement", "Intelligence", "Faith", "Dexterity"],
+      "answer": "Attunement"
+    },
+    {
+      "name": "Question 6",
+      "question": "What is the name of the NPC that serves as the blacksmith in Dark Souls?",
+      "options": ["Andre", "Vamos", "Rickert", "Giant Blacksmith"],
+      "answer": "Andre"
+    },
+    {
+      "name": "Question 7",
+      "question": "What is the name of the area in Dark Souls that serves as a hub for the player character?",
+      "options": ["Firelink Shrine", "Majula", "Hunter's Dream", "The Nexus"],
+      "answer": "Firelink Shrine"
+    },
+    {
+      "name": "Question 8",
+      "question": "What is the name of the final boss in Dark Souls?",
+      "options": ["Gwyn, Lord of Cinder", "The Nameless King", "Manus, Father of the Abyss", "The Old One"],
+      "answer": "Gwyn, Lord of Cinder"
+    },
+    {
+      "name": "Question 9",
+      "question": "What is the name of the covenant that focuses on invading other players' worlds in Dark Souls?",
+      "options": ["The Darkwraiths", "The Forest Hunters", "The Blades of the Darkmoon", "The Gravelord Servants"],
+      "answer": "The Darkwraiths"
+    },
+    {
+      "name": "Question 10",
+      "question": "What is the name of the game developer that created the Dark Souls series?",
+      "options": ["FromSoftware", "Bethesda", "CD Projekt Red", "Capcom"],
+      "answer": "FromSoftware"
+    }
+  ]
+},
+{
+  "quizName": "Skyrim Quiz",
+  "image": "https://cdn.wccftech.com/wp-content/uploads/2021/09/Skyrim-1200-mods-scaled.jpg",
+  "questions": [
+    {
+      "name": "Question 1",
+      "question": "What is the name of the player character in Skyrim?",
+      "options": ["Dovahkiin", "Alduin", "Paarthurnax", "Odahviing"],
+      "answer": "Dovahkiin"
+    },
+    {
+      "name": "Question 2",
+      "question": "What is the name of the ancient dragon that serves as the primary antagonist in Skyrim?",
+      "options": ["Alduin", "Paarthurnax", "Odahviing", "Sahloknir"],
+      "answer": "Alduin"
+    },
+    {
+      "name": "Question 3",
+      "question": "What is the name of the city where the player character begins the game in Skyrim?",
+      "options": ["Helgen", "Whiterun", "Riften", "Markarth"],
+      "answer": "Helgen"
+    },
+    {
+      "name": "Question 4",
+      "question": "What is the name of the guild of thieves in Skyrim?",
+      "options": ["The Thieves Guild", "The Dark Brotherhood", "The Companions", "The College of Winterhold"],
+      "answer": "The Thieves Guild"
+    },
+    {
+      "name": "Question 5",
+      "question": "What is the name of the ancient organization that seeks to control the power of the dragons in Skyrim?",
+      "options": ["The Blades", "The Greybeards", "The Forsworn", "The Vigilants of Stendarr"],
+      "answer": "The Blades"
+    },
+    {
+      "name": "Question 6",
+      "question": "What is the name of the mystical substance that is used to create powerful weapons and armor in Skyrim?",
+      "options": ["Ebony", "Dragonbone", "Daedric", "Dwemer"],
+      "answer": "Daedric"
+    },
+    {
+      "name": "Question 7",
+      "question": "What is the name of the capital city of Skyrim?",
+      "options": ["Solitude", "Windhelm", "Whiterun", "Markarth"],
+      "answer": "Solitude"
+    },
+    {
+      "name": "Question 8",
+      "question": "What is the name of the artifact that can be used to defeat Alduin in Skyrim?",
+      "options": ["Elder Scroll", "Dragonstone", "Dragonrend", "Dragonborn"],
+      "answer": "Elder Scroll"
+    },
+    {
+      "name": "Question 9",
+      "question": "What is the name of the god of time in the Elder Scrolls universe?",
+      "options": ["Akatosh", "Talos", "Mara", "Dibella"],
+      "answer": "Akatosh"
+    },
+    {
+      "name": "Question 10",
+      "question": "What is the name of the game developer that created the Skyrim?",
+      "options": ["Bethesda Game Studios", "BioWare", "CD Projekt Red", "Ubisoft"],
+      "answer": "Bethesda Game Studios"
+    }
+  ]
+},
+{
+  "quizName": "Star Wars Video Games Quiz",
+  "image": "https://assets2.rockpapershotgun.com/Best-Star-Wars-games-on-PC.jpg/BROK/resize/1920x1920%3E/format/jpg/quality/80/Best-Star-Wars-games-on-PC.jpg",
+  "questions": [
+    {
+      "name": "Question 1",
+      "question": "What is the name of the protagonist in the Jedi Knight series of games?",
+      "options": ["Kyle Katarn", "Luke Skywalker", "Obi-Wan Kenobi", "Anakin Skywalker"],
+      "answer": "Kyle Katarn"
+    },
+    {
+      "name": "Question 2",
+      "question": "What is the name of the primary antagonist in the Knights of the Old Republic games?",
+      "options": ["Darth Revan", "Darth Vader", "Darth Sidious", "Darth Malak"],
+      "answer": "Darth Malak"
+    },
+    {
+      "name": "Question 3",
+      "question": "What is the name of the first Star Wars video game, released in 1983?",
+      "options": ["Star Wars: The Arcade Game", "Star Wars: Jedi Arena", "Star Wars: The Empire Strikes Back", "Star Wars: X-Wing"],
+      "answer": "Star Wars: Jedi Arena"
+    },
+    {
+      "name": "Question 4",
+      "question": "What is the name of the bounty hunter protagonist in the Star Wars: Bounty Hunter game?",
+      "options": ["Boba Fett", "Jango Fett", "Cad Bane", "Aurra Sing"],
+      "answer": "Jango Fett"
+    },
+    {
+      "name": "Question 5",
+      "question": "What is the name of the protagonist in the Star Wars: The Force Unleashed games?",
+      "options": ["Starkiller", "Galen Marek", "Darth Vader", "Luke Skywalker"],
+      "answer": "Starkiller"
+    },
+    {
+      "name": "Question 6",
+      "question": "What is the name of the protagonist in the Star Wars: Republic Commando game?",
+      "options": ["RC-1138", "Jango Fett", "Boba Fett", "Cad Bane"],
+      "answer": "RC-1138"
+    },
+    {
+      "name": "Question 7",
+      "question": "What is the name of the protagonist in the Star Wars: Dark Forces game?",
+      "options": ["Kyle Katarn", "Luke Skywalker", "Obi-Wan Kenobi", "Anakin Skywalker"],
+      "answer": "Kyle Katarn"
+    },
+    {
+      "name": "Question 8",
+      "question": "What is the name of the protagonist in the Star Wars: Shadows of the Empire game?",
+      "options": ["Dash Rendar", "Han Solo", "Luke Skywalker", "Lando Calrissian"],
+      "answer": "Dash Rendar"
+    },
+    {
+      "name": "Question 9",
+      "question": "What is the name of the Star Wars racing game released in 1999?",
+      "options": ["Star Wars: Racer", "Star Wars: Podracer", "Star Wars: Speeder", "Star Wars: Turbo Podracer"],
+      "answer": "Star Wars: Episode I Racer"
+    },
+    {
+      "name": "Question 10",
+      "question": "What is the name of the game developer that created the Star Wars: Knights of the Old Republic games?",
+      "options": ["BioWare", "Bethesda Game Studios", "CD Projekt Red", "Obsidian Entertainment"],
+      "answer": "BioWare"
+    }
+  ]
+},
+{
+  "quizName": "Bioshock Quiz",
+  "image": "https://cdn.2kgames.com/web/common/images/bioshock1_keyart_L_1.jpg",
+  "questions": [
+    {
+      "name": "Question 1",
+      "question": "What is the name of the underwater city in Bioshock?",
+      "options": ["Rapture", "Columbia", "Carcosa", "Arkham"],
+      "answer": "Rapture"
+    },
+    {
+      "name": "Question 2",
+      "question": "What is the name of the protagonist in Bioshock?",
+      "options": ["Jack", "Subject Delta", "Booker DeWitt", "Andrew Ryan"],
+      "answer": "Jack"
+    },
+    {
+      "name": "Question 3",
+      "question": "What is the name of the genetic material that powers the abilities of the characters in Bioshock?",
+      "options": ["ADAM", "EVE", "PLASMIDS", "GENETIX"],
+      "answer": "ADAM"
+    },
+    {
+      "name": "Question 4",
+      "question": "What is the name of the leader of Rapture?",
+      "options": ["Andrew Ryan", "Frank Fontaine", "Sofia Lamb", "Atlas"],
+      "answer": "Andrew Ryan"
+    },
+    {
+      "name": "Question 5",
+      "question": "What is the name of the primary antagonist in Bioshock 2?",
+      "options": ["Andrew Ryan", "Frank Fontaine", "Sofia Lamb", "Atlas"],
+      "answer": "Sofia Lamb"
+    },
+    {
+      "name": "Question 6",
+      "question": "What is the name of the underwater city in Bioshock Infinite?",
+      "options": ["Columbia", "Rapture", "Carcosa", "Arkham"],
+      "answer": "Columbia"
+    },
+    {
+      "name": "Question 7",
+      "question": "What is the name of the protagonist in Bioshock Infinite?",
+      "options": ["Booker DeWitt", "Elizabeth", "Comstock", "Daisy Fitzroy"],
+      "answer": "Booker DeWitt"
+    },
+    {
+      "name": "Question 8",
+      "question": "What is the name of the mysterious substance that enables the ability to open 'tears' in Bioshock Infinite?",
+      "options": ["Salts", "ADAM", "EVE", "Plasmids"],
+      "answer": "Salts"
+    },
+    {
+      "name": "Question 9",
+      "question": "What is the name of the airship that serves as a major setting in Bioshock Infinite?",
+      "options": ["The First Lady", "The Empress", "The Lusitania", "The Hindenburg"],
+      "answer": "The First Lady"
+    },
+    {
+      "name": "Question 10",
+      "question": "What is the name of the floating city that serves as the main setting of Bioshock Infinite?",
+      "options": ["Columbia", "Rapture", "Carcosa", "Arkham"],
+      "answer": "Columbia"
+    }
+  ]
 }
 
 ]

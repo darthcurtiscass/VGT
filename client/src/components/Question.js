@@ -30,7 +30,10 @@ const QuizList = ({ quiz, score, setScore }) => {
               } catch (err) {
                 console.error(err);
               }
-      };
+            
+    };
+
+
   // if (!quiz.length) {
   //   return <h3>No Thoughts Yet</h3>;
   // }  
