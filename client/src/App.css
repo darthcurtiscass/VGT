@@ -60,3 +60,16 @@
     display: none;
   }
   } 
+
+  .ant-menu-horizontal, .ant-menu-item::after, .ant-menu-submenu::after {
+    border: none !important;
+}
+
+.menuNav {
+  padding: 3px;
+  text-decoration-line: inherit;
+  background-color:gray;
+  border: solid;
+  border-color: black;
+  border-radius: 20px;
+}
