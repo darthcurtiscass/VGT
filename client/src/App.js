@@ -20,6 +20,7 @@ import Quiz from './pages/Questionnaire';
 import Profile from './pages/Profile';
 import Signup from './pages/Signup';
 import LoginForm from './pages/Login';
+import LeaderBoard from './pages/Leaderboard'
 
 const httpLink = createHttpLink({
   uri: '/graphql'
@@ -70,6 +71,10 @@ function App() {
               <Route 
                 path="/profile" 
                 element={<Profile />}
+              />
+              <Route 
+                path="/leaderboard" 
+                element={<LeaderBoard />}
               />
               {/* <Route 
                 path="/profiles/:username" 

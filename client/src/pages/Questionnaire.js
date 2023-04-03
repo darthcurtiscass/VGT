@@ -9,7 +9,6 @@ import Question from '../components/Question'
 import '../App.css';
 import { useQuery }  from '@apollo/client';
 import { GET_SPECIFIC_QUIZ } from '../utils/queries'
-const q = "64262e89bde098b22cc96a1e";
 
 
 const Quiz = ({score, setScore}) => {
