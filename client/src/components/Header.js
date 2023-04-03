@@ -12,8 +12,8 @@ import Login from '../pages/Login';
 
 function Header() {
   return (
-    <div>
-      <header style={{ position: 'sticky', top: 0, zIndex: 1, width: '100%' }} className="navbar navbar-expand-lg bg-body-tertiary">
+
+      <header style={{ position: 'sticky', top: 0, zIndex: 1, width: '100%' }} className="navbar bg-body-tertiary">
 
         <div className='bg-warning' style={{
           float: 'left',
@@ -45,31 +45,41 @@ function Header() {
             </div>
           </section>
         </nav> */}
-        <br className='small-line-break '/>
+
+
         <Menu
-          mode='horizontal' className = "btn btn-warning"
+        style={{ display:'block' }}
+          mode='horizontal'
+          className = "btn btn-warning"
           >
 
-          <Menu.Item key="home">
+          <Menu.Item key="home" className='menuNav' style={{ float: 'left'}}>
             <NavLink to="/">Home</NavLink>
           </Menu.Item>
 
-          <Menu.Item key="leaderboard">
+          <Menu.Item key="leaderboard" className='menuNav' style={{ float: 'left'}}>
             <NavLink to="/leaderboard">Leaderboard</NavLink>
           </Menu.Item>
 
-          <Menu.Item key="profile">
+          <Menu.Item key="profile" className='menuNav' style={{ float: 'left'}}>
             <NavLink to="/profile">Profile</NavLink>
           </Menu.Item>
-
-          <Menu.Item key="signup">
+          </Menu>
+        
+          <Menu
+          style={{ display: 'block'}}
+          mode='horizontal'
+          className='btn btn-warning'
+          >
+          <Menu.Item key="signup" className='menuNav' style={{ float: 'right'}}>
             <NavLink to="/signup">Signup</NavLink>
           </Menu.Item>
 
-          <Menu.Item key="login">
+          <Menu.Item key="login" className='menuNav' style={{ float: 'right'}}>
             <NavLink to="/login">Login</NavLink>
           </Menu.Item>
-        </Menu>
+          </Menu>
+
 
         {/* <Routes>
           <Route exact path="/" element={<Home />} />
@@ -81,8 +91,8 @@ function Header() {
         </Routes> */}
 
       </header>
-      <br className='small-line-break'/>
-    </div>
+      
+
   );
 }
 
