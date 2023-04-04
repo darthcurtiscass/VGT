@@ -56,23 +56,13 @@ export const GET_SPECIFIC_QUIZ = gql`
         quiz(quizId: $quizId) {
             _id
             quizName
+            image
             questions {
                 _id
                 question
                 options
                 answer
             }
-            # scores {
-            #     user {
-            #         _id
-            #         scores {
-            #             _id
-            #             score
-            #             quiz
-            #         }
-            #     }
-            # }
-            # image
         }
     }`
 
