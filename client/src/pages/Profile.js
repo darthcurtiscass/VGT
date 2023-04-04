@@ -23,7 +23,7 @@ return (
   </div>
 </div>
 
-<table class="table table-dark table-striped w-25">
+<table class="table table-dark table-striped w-50 mx-auto">
 <thead>
     <tr>
       <th scope="col">Quiz</th>
@@ -37,21 +37,19 @@ return (
     <td>{score.score}</td>
   </tr>
 </tbody>
-
 )}
+</table>
+<br />
 
 {/* {me.friends.map ((friend) =>  */}
-<div class="list-group">
-  <button type="button" class="list-group-item list-group-item-action active" aria-current="true">
-    The current button
-  </button>
-  <button type="button" class="list-group-item list-group-item-action">A second button item</button>
-  <button type="button" class="list-group-item list-group-item-action">A third button item</button>
-  <button type="button" class="list-group-item list-group-item-action">A fourth button item</button>
-  <button type="button" class="list-group-item list-group-item-action" disabled>A disabled button item</button>
+<div class="container-fluid bg-secondary mx-auto w-50">
+  <div class="list-group">
+    <button type="button" class="list-group-item list-group-item-action text-white bg-dark">
+      The current button
+    </button>
+  </div>
 </div>
 {/* )} */}
-</table>
   
 </div>
 
