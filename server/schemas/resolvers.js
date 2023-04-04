@@ -15,7 +15,7 @@ const resolvers = {
         if(context.user){
             return User.findOne({ _id: context.user._id }).populate('friends', 'quizes')
         }
-      },
+      }  ,
       quiz: async (parent, {quizId}) => {
         return Quiz.findOne( {_id: quizId} ).populate('questions', 'scores')
       },
