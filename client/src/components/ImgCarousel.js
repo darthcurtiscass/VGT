@@ -12,12 +12,18 @@ const Quizzes = ({ quizzes }) => {
     // console.log(event.target.textContent)
     console.log(event.target.textContent);
     console.log(quizzes[0].image);
-    if (event.target.textContent === "Back") {
+    if (event.target.textContent === "Back" && image != 0) {
       setImage(image - 1);
-    } else if (event.target.textContent === "Next") {
+    } else if(event.target.textContent === "Back" && image === 0) {
+      setImage(image+quizzes.length-1);
+
+    } else if (event.target.textContent === "Next" && image < quizzes.length -1) {
       setImage(image+1);
+    } else if(event.target.textContent === "Next" && image === quizzes.length -1)  {
+      setImage(image-quizzes.length +1)
     }
   };
+  
 
   return (
     <div>
@@ -31,7 +37,10 @@ const Quizzes = ({ quizzes }) => {
             <div class="carousel-inner"></div>
 
             <div class="carousel-item active">
+              <h1>{quizzes[image].quizName}</h1>
+            <NavLink to={`/quiz/${quizzes[image]._id}`} style={{color:'yellow'}}>
               <img src={quizzes[image].image} class="d-block w-75 mx-auto" alt="..." />
+              </NavLink>
             </div>
           </div>
           <button
@@ -41,7 +50,7 @@ const Quizzes = ({ quizzes }) => {
             data-bs-target="#carouselExampleAutoplaying"
             data-bs-slide="prev"
           >
-            <div class="button-wrap"><span class='text-uppercase'>Back</span></div>
+            <div class="bg-dark btn-sm"><span class='text-uppercase'>Back</span></div>
             
             
           </button>
@@ -52,7 +61,7 @@ const Quizzes = ({ quizzes }) => {
             data-bs-target="#carouselExampleAutoplaying"
             data-bs-slide="next"
           >
-            <div class="button-wrap"><span class="text-uppercase">Next</span></div>
+            <div class="btn-sm bg-dark"><span class="text-uppercase">Next</span></div>
             
            
           </button>

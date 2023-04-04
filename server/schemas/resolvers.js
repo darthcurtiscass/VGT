@@ -5,8 +5,8 @@ const { signToken } = require('../utils/auth');
 
 const resolvers = {
   Query: {
-      user: async (parent, { username }) => {
-        return User.findOne({ username }).populate('friends', 'quizes');
+      user: async (parent, { userId }) => {
+        return User.findOne({ _id: userId }).populate('friends', 'quizes');
       },
       users: async () => {
         return User.find().populate('friends', 'quizes');
@@ -70,7 +70,7 @@ const resolvers = {
             { _id: context.user._id },
             {
               $addToSet: {
-                friends: { friendId }
+                friends: { _id: friendId }
               }
             },
             {

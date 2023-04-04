@@ -9,20 +9,35 @@ const Leaderboard = () => <Pagination defaultCurrent={1} total={50}/>
 //use state variable for i, instead of defining it as a specific index number.
 
 const Scores = ({ users }) => {
+  // const scores = users.map((score) => score.score);
+  // const total = scores.reduce((a, b) => a + b, 0);
+  // const average = total / scores.length;
+
+
   return (
-    <div>
-
-          <div className="card mb-3">
-            <h4 className="card-header bg-primary text-light p-2 m-0 bg-dark">
-            </h4>
-            
-
+    <div className='mx-auto justify-center w-75'>
+        <div className='container-fluid bg-dark '>
+          <table class="table table-dark table-striped fs-2 text">
+          <thead className=''>
+              <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Average Score</th>
+              </tr>
+            </thead>
             {users.users.map((user) => (
-                <NavLink to={`/users/${user._id}`} style={{border: "1px solid black"}}>{user.username} {user.friends}</NavLink> 
+            <tbody>
+              <tr>
+                <NavLink className="fs-4 text" to={`/users/${user._id}`}><td>{user.username}</td></NavLink> 
+                <td>
+                  {(user.scores.reduce((acc, curr) => acc + curr.score, 0) / user.scores.length).toFixed(2)}
+                </td>
+                </tr>
+            </tbody>
             ))}
-          </div>
+          </table>
 
-    </div>
+          </div>
+          </div>
   );
 };
 

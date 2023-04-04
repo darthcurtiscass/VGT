@@ -2,9 +2,14 @@ import { React, useState } from 'react';
 import '../App.css';
 import { GET_ME, GET_SPECIFIC_USER } from '../utils/queries';
 import { useQuery }  from '@apollo/client';
+import { useParams } from 'react-router-dom';
+import AddFriend from '../components/AddFriend';
 
 const User = () => {
-const { loading, data } = useQuery(GET_SPECIFIC_USER);
+const { userId } = useParams();
+const { loading, data } = useQuery(GET_SPECIFIC_USER, {
+    variables: { userId: userId },
+  });
 const user = data?.user || []
 
 console.log(data)
@@ -18,6 +23,7 @@ return (
 <div class="card bg-dark text-white">
   <div class="card-body">
     <h1>{user.username}</h1>
+    <AddFriend />
   </div>
 </div>
 

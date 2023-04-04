@@ -2,29 +2,35 @@ import { React, useState } from 'react';
 import '../App.css';
 import { Avatar, Space, Card, Checkbox, Form, Input, Col, message, Row } from 'antd'
 import { UserOutlined } from '@ant-design/icons';
-import { GET_ME } from '../utils/queries';
+import { GET_ME, GET_SPECIFIC_USER } from '../utils/queries';
 import { useQuery }  from '@apollo/client';
-const { TextArea } = Input;
 const Profile = () => {
 const { loading, data } = useQuery(GET_ME);
+
 const me = data?.me || []
 
 console.log(data)
+
 
 if (!data) return <div>Loading...</div>;
 
 return (
 
-<div class="container-fluid">
+  <div class="container-fluid">
 
-<div class="card bg-dark text-white">
+<div class="card bg-dark text-white border-white">
   <div class="card-body">
     <h1>{me.username}</h1>
   </div>
 </div>
 
-<table class="table table-dark table-striped w-50 mx-auto">
-<thead>
+
+  <div class="container text-center bg-dark w-80 ">
+  <div class="row align-items-start">
+ 
+    <div class="col-8 ">
+    <table class="table table-dark table-striped w-100 mx-auto border-white">
+    <thead>
     <tr>
       <th scope="col">Quiz</th>
       <th scope="col">Score</th>
@@ -38,19 +44,48 @@ return (
   </tr>
 </tbody>
 )}
-</table>
-<br />
+ </table>
+    </div>
+    </div>
+    {/* <div class="col bg-secondary">
+      <h3>Friends</h3>
 
-{/* {me.friends.map ((friend) =>  */}
-<div class="container-fluid bg-secondary mx-auto w-50">
+      {me.friends.map ((friend) => 
+  
+<div class="container-fluid bg-secondary mx-auto w-100 ">
   <div class="list-group">
+    <button type="button" class="list-group-item list-group-item-action text-white bg-dark">
+      {}
+    </button>
     <button type="button" class="list-group-item list-group-item-action text-white bg-dark">
       The current button
     </button>
+    <button type="button" class="list-group-item list-group-item-action text-white bg-dark">
+      The current button
+    </button>
+    <button type="button" class="list-group-item list-group-item-action text-white bg-dark">
+      The current button
+    </button>
+    
   </div>
 </div>
-{/* )} */}
+)}
+    </div>
+  </div> */} 
+
+
+
+
+
+<br />
+<br />
+
+<br />
+
+
   
+
+</div>
 </div>
 
 )

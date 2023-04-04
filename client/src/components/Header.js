@@ -2,12 +2,6 @@ import { React } from 'react';
 import { Route, NavLink, Link, Routes } from 'react-router-dom';
 import '../../src/App.css';
 import { Layout, Menu, theme } from 'antd';
-import Home from '../pages/Home';
-import Leaderboard from '../pages/Leaderboard';
-import Questionnaire from '../pages/Questionnaire';
-import Profile from '../pages/Profile';
-import Signup from '../pages/Signup';
-import Login from '../pages/Login';
 
 
 function Header() {
@@ -25,27 +19,6 @@ function Header() {
         }}>
           <h1>VGT</h1>
         </div>
-
-        {/* <nav mode="horizontal" theme="dark" className="main-header-menu">
-          <section className='nav'>
-            <div>
-              <a href="#">Home</a>
-            </div>
-            <div>
-              <a href="#">Leaderboard</a>
-            </div>
-            <div>
-              <a href="#">Quiz</a>
-            </div>
-            <div>
-              <a href="#">Signup</a>
-            </div>
-            <div>
-              <a href="#">Login</a>
-            </div>
-          </section>
-        </nav> */}
-
 
         <Menu
         style={{ display:'block' }}

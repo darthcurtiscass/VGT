@@ -8,8 +8,8 @@ export const GET_ME = gql`
             email
             friends {
                 _id
-                username
-                email
+                # username
+                # email
             }
             scores {
                 _id
@@ -33,8 +33,8 @@ export const GET_ALL_USERS = gql`
     }`
 
 export const GET_SPECIFIC_USER = gql`
-    query user($username: String!) {
-        user(username: $username) {
+    query user($userId: ID!) {
+        user(userId: $userId) {
             _id
             username
             email

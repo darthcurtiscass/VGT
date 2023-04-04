@@ -14,7 +14,7 @@ const QuizList = ({ quizzes, title }) => {
         quizzes.map((quiz) => (
 
             <h4 className="btn btn-danger">
-              <NavLink to={`/quiz/${quiz._id}`} style={{color:'yellow'}}>{quiz.quizName}</NavLink> <br />
+              <NavLink to={`/quiz/${quiz._id}`} style={{color:'yellow'}}>{quiz.quizName}</NavLink> 
             </h4>
 
         ))}

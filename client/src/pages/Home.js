@@ -21,9 +21,9 @@ const contentStyle = {
 
 
 
-for (var i; i < 3; i++) {
+// for (var i; i < 3; i++) {
 
-}
+// }
 
 const Home = ({ image, setImage }) => {
     const { loading, data } = useQuery(GET_ALL_QUIZZES);

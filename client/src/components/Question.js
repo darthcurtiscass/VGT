@@ -12,8 +12,6 @@ const QuizList = ({ quiz, score, setScore }) => {
     const [quizName, setQuizName] = useState({})
     const [addResult, { error, data }] = useMutation(ADD_RESULT);
 
-    
-
     console.log(quiz)
 
     const handleSaveScore = async (event) => {
@@ -32,6 +30,7 @@ const QuizList = ({ quiz, score, setScore }) => {
       } catch (err) {
         console.error(err);
       }
+      setScore(score=0)
     };
 
     const handleSelection = async (event) => {
@@ -58,11 +57,11 @@ const QuizList = ({ quiz, score, setScore }) => {
         <img src={quiz.image} className="card-img-top" alt="quiz name" />
         <div class="card-body">
           <h2 class="card-title">{quiz.name}</h2>
-          <h6 class="card-text">{score}</h6>
+          <h6 class="card-text">{score/quiz.questions.length * 100}%</h6>
           <a name= "quizName" onClick={handleSaveScore} href="#" class="btn btn-primary">Save Score</a>
         </div>
         </div>
-        {/* <button name= "quizName" onClick={handleSaveScore}>SAVE {quiz.quizName}</button> */}
+        
       </div>
     ); 
   }
@@ -70,21 +69,20 @@ const QuizList = ({ quiz, score, setScore }) => {
   return (
     <div key={quiz.id} >
 
-          <div className="card mb-3 ">
-            <h4 className="card-header bg-primary text-light p-2 m-0 bg-dark" >
+          <div className="card mb-3 bg-secondary">
+            <h2 className="card-header bg-primary text-light p-2 m-0 bg-dark" >
               {quiz.quizName} <br />
-            </h4>
-            {quiz.questions[currentQuestion].question}
+            </h2>
+            <h3>{quiz.questions[currentQuestion].question}</h3>
             {quiz.questions[currentQuestion].options.map((options) => (
 
               <div onClick={handleSelection} key={options}>
                 
-                  {options}
+                <button type="button" className="btn btn-success w-100">{options}</button>
               <br />
               </div>
             ) )}
           </div>
-
     </div>
   );
 

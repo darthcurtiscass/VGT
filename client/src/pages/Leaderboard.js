@@ -22,11 +22,9 @@ const LeaderBoard = () => {
     
     return (
         <main>
-          <div className="flex-row justify-center ">
-            <div className=" col-md-10 mb-3 p-3 " style={{  }}>
- 
-                 
-                <div className="col-12 col-md-8 mb-3">
+          <div>
+            <div>
+                <div>
           {/* {loading ? (
             <div>Loading...</div>
           ) : ( */}
