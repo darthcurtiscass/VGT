@@ -29,7 +29,7 @@ const Quiz = ({score, setScore}) => {
             <div className=" col-md-10 mb-3 p-3 " style={{  }}>
  
                  
-                <div className="col-12 col-md-8 mb-3">
+                <div className="col-12 col-md-8 mb-3 mx-auto">
           {/* {loading ? (
             <div>Loading...</div>
           ) : ( */}

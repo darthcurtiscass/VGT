@@ -9,9 +9,31 @@ import { ADD_RESULT } from '../utils/mutations';
 
 const QuizList = ({ quiz, score, setScore }) => {
     const [currentQuestion, setCurrentQuestion] = useState(0);
+    const [quizName, setQuizName] = useState({})
     const [addResult, { error, data }] = useMutation(ADD_RESULT);
 
+    
+
     console.log(quiz)
+
+    const handleSaveScore = async (event) => {
+      event.preventDefault();
+      console.log("Save score");
+      console.log(data)
+      const { name, value } = event.target;
+      setQuizName({ quizName, [name]: value })
+      
+
+
+      try {
+        await addResult({
+          variables: { score, quiz: quiz.quizName },
+        });
+        console.log("Result added successfully");
+      } catch (err) {
+        console.error(err);
+      }
+    };
 
     const handleSelection = async (event) => {
         // console.log(event.target.textContent)
@@ -20,26 +42,31 @@ const QuizList = ({ quiz, score, setScore }) => {
             console.log("correct!")
             setCurrentQuestion(currentQuestion+1)
             setScore(score+1)
-            } else {
+            } else if(event.target.textContent != quiz.questions[currentQuestion].answer) {
                 setCurrentQuestion(currentQuestion+1)
-            }
-            try {
-                await addResult({
-                  variables: { score },
-                });
-              } catch (err) {
-                console.error(err);
-              }
+                console.log(quiz.questions[currentQuestion])
+            } 
+            
+            
       };
-  // if (!quiz.length) {
-  //   return <h3>No Thoughts Yet</h3>;
-  // }  
-  // document.getElementById("next").addEventListener("click", i++)
-  return (
-    <div key={quiz.id}>
 
-          <div className="card mb-3">
-            <h4 className="card-header bg-primary text-light p-2 m-0 bg-dark">
+    if (currentQuestion === quiz.questions.length) {
+    console.log("No More Questions");
+    return (
+      <div >
+        
+        No More Questions
+        Would you like to Save your Score?
+        <button name= "quizName" onClick={handleSaveScore}>SAVE {quiz.quizName}</button>
+      </div>
+    ); 
+  }
+
+  return (
+    <div key={quiz.id} >
+
+          <div className="card mb-3 ">
+            <h4 className="card-header bg-primary text-light p-2 m-0 bg-dark" >
               {quiz.quizName} <br />
             </h4>
             {quiz.questions[currentQuestion].question}

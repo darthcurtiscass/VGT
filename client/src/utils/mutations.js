@@ -25,7 +25,7 @@ export const CREATE_USER = gql`
     }`
 
 export const ADD_RESULT = gql`
-    mutation addResult ($score: Int!, $quiz: String) {
+    mutation addResult ($score: Int!, $quiz: String!) {
         addResult (score: $score, quiz: $quiz) {
             _id
             scores {
