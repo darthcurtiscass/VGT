@@ -1,3 +1,4 @@
+import { Space } from 'antd';
 import React from 'react';
 
 import { Route, NavLink, Link, Routes } from 'react-router-dom';
@@ -12,8 +13,8 @@ const QuizList = ({ quizzes, title }) => {
       {
         quizzes.map((quiz) => (
 
-            <h4 className="">
-              <NavLink to={`/quiz/${quiz._id}`}>{quiz.quizName}</NavLink> <br />
+            <h4 className="btn btn-danger">
+              <NavLink to={`/quiz/${quiz._id}`} style={{color:'yellow'}}>{quiz.quizName}</NavLink> <br />
             </h4>
 
         ))}

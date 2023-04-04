@@ -25,6 +25,12 @@
   justify-content: space-evenly;
 }
 
+.h4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .logo {
   float: 'left';
   width: 120;

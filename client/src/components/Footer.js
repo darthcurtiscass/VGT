@@ -6,7 +6,7 @@ const Footer = () => {
     return(
         <footer>
             <div >
-                <h4>Footer Stuff</h4>
+                <h4>Made by Dylan, Christian, Max, Teamir and Owen</h4>
             </div>
         </footer>
     );
