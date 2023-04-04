@@ -49,9 +49,9 @@ const LoginForm = () => {
   };
 
 return (
-  <main className="flex-row justify-center mb-4">
-    <div className="col-12 col-lg-10">
-      <div className="card w-75 mx-auto bg-dark">
+  <main className="flex-row justify-center mb-4 mx-auto">
+    <div className="col-12 col-12 ">
+      <div className="card w-75 mx-auto bg-dark ">
         <h4 className="card-header bg-dark text-light p-2">Login</h4>
         <img src={zeldaWave} alt="User profile" />
         <div className="card-body">
