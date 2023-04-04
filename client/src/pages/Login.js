@@ -32,7 +32,7 @@ const LoginForm = () => {
 
     try {
       const { data } = await login({
-        variables: { ...userFormData }
+        variables: { ...userFormData  }
       })
       console.log(data)
       Auth.login(data.login.token);
@@ -58,7 +58,7 @@ return (
           {data ? (
             <p>
               Success! You may now head{' '}
-              <Link to="/">back to the homepage.</Link>
+              <Link to="/">back to the homepage. </Link>
             </p>
           ) : (
             <form onSubmit={handleFormSubmit}>
