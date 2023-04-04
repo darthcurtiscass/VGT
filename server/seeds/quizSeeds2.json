@@ -1,0 +1,1177 @@
+[
+  {
+    "quizName": "Halo",
+    "image": "https://assets.reedpopcdn.com/digitalfoundry-2021-halo-combat-evolved-season-7-master-chief-collection-1622735120728.jpg/BROK/thumbnail/1600x900/quality/100/digitalfoundry-2021-halo-combat-evolved-season-7-master-chief-collection-1622735120728.jpg",
+    "questions": [
+      {
+        "name": "Question 1",
+        "question": "What is the name of the main protagonist in the Halo series?",
+        "options": ["Master Chief", "Sergeant Johnson", "Cortana", "Arbiter"],
+        "answer": "Master Chief"
+      },
+      {
+        "name": "Question 2",
+        "question": "What is the name of the alien race that is the primary antagonist in the Halo series?",
+        "options": ["Covenant", "Elites", "Grunts", "Hunters"],
+        "answer": "Covenant"
+      },
+      {
+        "name": "Question 3",
+        "question": "What is the name of the artificial intelligence companion that assists Master Chief in the Halo series?",
+        "options": ["Cortana", "ED-E", "GLaDOS", "SHODAN"],
+        "answer": "Cortana"
+      },
+      {
+        "name": "Question 4",
+        "question": "What is the name of the superweapon that is featured prominently in the Halo series?",
+        "options": [
+          "The Halo Array",
+          "The Death Star",
+          "The Citadel",
+          "The Crucible"
+        ],
+        "answer": "The Halo Array"
+      },
+      {
+        "name": "Question 5",
+        "question": "What is the name of the planet that serves as the primary setting of the first Halo game?",
+        "options": ["Installation 04", "Reach", "Earth", "Harvest"],
+        "answer": "Installation 04"
+      }
+    ]
+  },
+  {
+    "quizName": "Sly Cooper",
+    "image": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/83c1123ae181c7e063598a278fbb72d3.jpg",
+    "questions": [
+      {
+        "name": "Question 1",
+        "question": "What is the name of the main protagonist in the Sly Cooper series?",
+        "options": ["Murray", "Carmelita Fox", "Bentley", "Sly Cooper"],
+        "answer": "Sly Cooper"
+      },
+      {
+        "name": "Question 2",
+        "question": "What is the name of the criminal organization that Sly Cooper and his friends are up against?",
+        "options": [
+          "The Fiendish Five",
+          "The Klaww Gang",
+          "The Cooper Gang",
+          "The Thievius Raccoonus"
+        ],
+        "answer": "The Fiendish Five"
+      },
+      {
+        "name": "Question 3",
+        "question": "What is the name of the signature move that Sly Cooper uses to take down his enemies?",
+        "options": [
+          "Thieving Strike",
+          "Pickpocketing",
+          "Barrel Roll",
+          "Spire Jump"
+        ],
+        "answer": "Thieving Strike"
+      },
+      {
+        "name": "Question 4",
+        "question": "What is the name of Sly Cooper's love interest who is also a law enforcement officer?",
+        "options": ["Carmelita Fox", "Penelope", "Neyla", "Sally"],
+        "answer": "Carmelita Fox"
+      },
+      {
+        "name": "Question 5",
+        "question": "What is the name of the mystical book that contains the secrets of the Cooper family's thieving techniques?",
+        "options": [
+          "The Thievius Raccoonus",
+          "The Black Tome",
+          "The Arcanum Codex",
+          "The Grimoire"
+        ],
+        "answer": "The Thievius Raccoonus"
+      }
+    ]
+  },
+  {
+    "quizName": "Resident Evil",
+    "image": "https://assets-prd.ignimgs.com/2021/08/30/residentevil-welcometoraccooncity-blogroll-1630300363029.jpg",
+    "questions": [
+      {
+        "name": "Question 1",
+        "question": "Who is the main protagonist of the original Resident Evil game?",
+        "options": [
+          "Chris Redfield",
+          "Jill Valentine",
+          "Leon S. Kennedy",
+          "Claire Redfield"
+        ],
+        "answer": "Chris Redfield"
+      },
+      {
+        "name": "Question 2",
+        "question": "What is the name of the fictional city where the Resident Evil series is primarily set?",
+        "options": [
+          "Raccoon City",
+          "Silent Hill",
+          "Arklay City",
+          "Zombieville"
+        ],
+        "answer": "Raccoon City"
+      },
+      {
+        "name": "Question 3",
+        "question": "What is the name of the evil corporation responsible for the creation of the T-virus?",
+        "options": [
+          "Umbrella Corporation",
+          "Red Queen Corporation",
+          "Black Mesa Corporation",
+          "Aperture Science"
+        ],
+        "answer": "Umbrella Corporation"
+      },
+      {
+        "name": "Question 4",
+        "question": "What is the name of the special forces unit that Chris Redfield and Jill Valentine are members of?",
+        "options": ["S.T.A.R.S.", "U.S.S.", "B.S.A.A.", "R.P.D."],
+        "answer": "S.T.A.R.S."
+      },
+      {
+        "name": "Question 5",
+        "question": "What is the name of the main antagonist of the Resident Evil series?",
+        "options": [
+          "Albert Wesker",
+          "Nemesis",
+          "William Birkin",
+          "Oswell E. Spencer"
+        ],
+        "answer": "Albert Wesker"
+      }
+    ]
+  },
+  {
+    "quizName": "Dark Souls",
+    "image": "https://static.bandainamcoent.eu/high/dark-souls/dark-souls-3/00-page-setup/ds3_game-thumbnail.jpg",
+    "questions": [
+      {
+        "name": "Question 1",
+        "question": "What is the name of the land that the player explores in the Dark Souls series?",
+        "options": ["Lordran", "Drangleic", "Boletaria", "Yharnam"],
+        "answer": "Lordran"
+      },
+      {
+        "name": "Question 2",
+        "question": "What is the name of the first boss in the original Dark Souls?",
+        "options": [
+          "Asylum Demon",
+          "Taurus Demon",
+          "Bell Gargoyle",
+          "Capra Demon"
+        ],
+        "answer": "Asylum Demon"
+      },
+      {
+        "name": "Question 3",
+        "question": "What is the name of the sword that players use to light bonfires in the Dark Souls series?",
+        "options": [
+          "Estus Flask",
+          "Dark Sword",
+          "Broken Straight Sword",
+          "Uchigatana"
+        ],
+        "answer": "Broken Straight Sword"
+      },
+      {
+        "name": "Question 4",
+        "question": "What is the name of the covenant in Dark Souls that focuses on jolly cooperation?",
+        "options": [
+          "Warriors of Sunlight",
+          "Way of White",
+          "Chaos Servant",
+          "Gravelord Servant"
+        ],
+        "answer": "Warriors of Sunlight"
+      },
+      {
+        "name": "Question 5",
+        "question": "What is the name of the final boss in the original Dark Souls?",
+        "options": [
+          "Gwyn, Lord of Cinder",
+          "Manus, Father of the Abyss",
+          "Kalameet, the Black Dragon",
+          "Ornstein and Smough"
+        ],
+        "answer": "Gwyn, Lord of Cinder"
+      }
+    ]
+  },
+  {
+    "quizName": "Skyrim",
+    "image": "https://cdn.wccftech.com/wp-content/uploads/2021/09/Skyrim-1200-mods-scaled.jpg",
+    "questions": [
+      {
+        "name": "Question 1",
+        "question": "What is the name of the continent on which Skyrim takes place?",
+        "options": ["Tamriel", "Nirn", "Akavir", "Atmora"],
+        "answer": "Tamriel"
+      },
+      {
+        "name": "Question 2",
+        "question": "What is the name of the dragon that the player character is revealed to be in Skyrim?",
+        "options": ["Paarthurnax", "Alduin", "Durnehviir", "Sahloknir"],
+        "answer": "Dovahkiin"
+      },
+      {
+        "name": "Question 3",
+        "question": "What is the name of the mysterious organization that the player character joins in Skyrim?",
+        "options": [
+          "The Dark Brotherhood",
+          "The Thieves Guild",
+          "The Companions",
+          "The Blades"
+        ],
+        "answer": "The Dark Brotherhood"
+      },
+      {
+        "name": "Question 4",
+        "question": "What is the name of the Daedric Prince of Madness in Skyrim?",
+        "options": ["Sheogorath", "Molag Bal", "Hircine", "Hermaeus Mora"],
+        "answer": "Sheogorath"
+      },
+      {
+        "name": "Question 5",
+        "question": "What is the name of the nordic warrior society that the player character can join in Skyrim?",
+        "options": [
+          "The Companions",
+          "The Blades",
+          "The College of Winterhold",
+          "The Thalmor"
+        ],
+        "answer": "The Companions"
+      }
+    ]
+  },
+  {
+    "quizName": "The Last of Us",
+    "image": "https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/01/the-last-of-us.jpg",
+    "questions": [
+      {
+        "name": "Question 1",
+        "question": "What is the name of the fungal infection that has ravaged the world in The Last of Us?",
+        "options": ["Cordyceps", "Aspergillus", "Histoplasma", "Blastomyces"],
+        "answer": "Cordyceps"
+      },
+      {
+        "name": "Question 2",
+        "question": "Who is the main protagonist of The Last of Us?",
+        "options": ["Joel", "Ellie", "Tommy", "Tess"],
+        "answer": "Joel"
+      },
+      {
+        "name": "Question 3",
+        "question": "What is the name of the girl who Joel is tasked with escorting across the country in The Last of Us?",
+        "options": ["Ellie", "Sarah", "Marlene", "Riley"],
+        "answer": "Ellie"
+      },
+      {
+        "name": "Question 4",
+        "question": "What is the name of the group that Joel and Ellie encounter in The Last of Us who are fighting against the military?",
+        "options": ["Fireflies", "Hunters", "Cannibals", "Bandits"],
+        "answer": "Fireflies"
+      },
+      {
+        "name": "Question 5",
+        "question": "What is the name of the sequel to The Last of Us?",
+        "options": [
+          "The Last of Us Part II",
+          "The Last of Us: Left Behind",
+          "The Last of Us: American Dreams",
+          "The Last of Us: One Night Live"
+        ],
+        "answer": "The Last of Us Part II"
+      }
+    ]
+  },
+  {
+    "quizName": "Elder Scrolls",
+    "image": "https://store-images.s-microsoft.com/image/apps.45825.13609356959011899.0daad853-0f64-4e2d-a1ae-742d439b2969.166a2067-3fb8-401e-8506-596019408cdc?mode=scale&q=90&h=1080&w=1920&background=%23FFFFFF",
+    "questions": [
+      {
+        "name": "Question 1",
+        "question": "What is the name of the Dwemer city that disappeared without a trace in the Elder Scrolls universe?",
+        "options": ["Alinor", "Blackreach", "Vvardenfell", "Dwemereth"],
+        "answer": "Dwemereth"
+      },
+      {
+        "name": "Question 2",
+        "question": "What is the name of the legendary sword wielded by the hero of the Elder Scrolls series?",
+        "options": ["Chrysamere", "Umbra", "Goldbrand", "Mehrunes' Razor"],
+        "answer": "Chrysamere"
+      },
+      {
+        "name": "Question 3",
+        "question": "What is the name of the Daedric Prince of Domination?",
+        "options": ["Molag Bal", "Azura", "Sheogorath", "Boethiah"],
+        "answer": "Molag Bal"
+      },
+      {
+        "name": "Question 4",
+        "question": "What is the name of the city that was destroyed by a meteorite in the Elder Scrolls universe?",
+        "options": ["Windhelm", "Cheydinhal", "Vivec City", "Mournhold"],
+        "answer": "Vivec City"
+      },
+      {
+        "name": "Question 5",
+        "question": "What is the name of the elven race that is believed to have created the Aedra and Daedra in the Elder Scrolls universe?",
+        "options": ["Altmer", "Dunmer", "Ayleid", "Falmer"],
+        "answer": "Ayleid"
+      }
+    ]
+  },
+  {
+    "quizName": "The Legend of Zelda: Ocarina of Time",
+    "image": "https://i.ytimg.com/vi/4bHUl92VNFg/maxresdefault.jpg",
+    "questions": [
+      {
+        "name": "Question 1",
+        "question": "What is the name of the primary antagonist in The Legend of Zelda: Ocarina of Time?",
+        "options": ["Ganondorf", "Vaati", "Agahnim", "Zant"],
+        "answer": "Ganondorf"
+      },
+      {
+        "name": "Question 2",
+        "question": "What is the name of the fairy companion that accompanies Link in Ocarina of Time?",
+        "options": ["Navi", "Tatl", "Ciela", "Midna"],
+        "answer": "Navi"
+      },
+      {
+        "name": "Question 3",
+        "question": "What is the name of the time-traveling ocarina that Link receives early on in Ocarina of Time?",
+        "options": [
+          "The Ocarina of Time",
+          "The Song of Time",
+          "The Minuet of Forest",
+          "The Prelude of Light"
+        ],
+        "answer": "The Ocarina of Time"
+      },
+      {
+        "name": "Question 4",
+        "question": "What is the name of the recurring villainous sorceress who is present in multiple games in the Zelda series, including Ocarina of Time?",
+        "options": ["Twinrova", "Veran", "Onox", "Ghirahim"],
+        "answer": "Twinrova"
+      },
+      {
+        "name": "Question 5",
+        "question": "What is the name of the final dungeon in Ocarina of Time, where Link must face Ganon?",
+        "options": [
+          "Ganon's Castle",
+          "The Temple of Time",
+          "The Water Temple",
+          "The Spirit Temple"
+        ],
+        "answer": "Ganon's Castle"
+      }
+    ]
+  },
+  {
+    "quizName": "The Legend of Zelda: Breath of the Wild",
+    "image": "https://www.zelda.com/breath-of-the-wild/assets/icons/BOTW-Share_icon.jpg",
+    "questions": [
+      {
+        "name": "Question 1",
+        "question": "What is the name of the primary antagonist in The Legend of Zelda: Breath of the Wild?",
+        "options": ["Calamity Ganon", "Vaati", "Agahnim", "Zant"],
+        "answer": "Calamity Ganon"
+      },
+      {
+        "name": "Question 2",
+        "question": "What is the name of the powerful tablet-like device that Link uses throughout Breath of the Wild?",
+        "options": [
+          "Sheikah Slate",
+          "Divine Tablet",
+          "Hylian Tome",
+          "Master Book"
+        ],
+        "answer": "Sheikah Slate"
+      },
+      {
+        "name": "Question 3",
+        "question": "What is the name of the legendary horse that Link can tame and ride in Breath of the Wild?",
+        "options": ["Epona", "Roach", "Agro", "Shadowfax"],
+        "answer": "Epona"
+      },
+      {
+        "name": "Question 4",
+        "question": "What is the name of the ancient technology that is central to the story of Breath of the Wild?",
+        "options": [
+          "Sheikah technology",
+          "Goron technology",
+          "Zora technology",
+          "Rito technology"
+        ],
+        "answer": "Sheikah technology"
+      },
+      {
+        "name": "Question 5",
+        "question": "What is the name of the final boss in Breath of the Wild?",
+        "options": [
+          "Dark Beast Ganon",
+          "Calamity Ganon",
+          "Thunderblight Ganon",
+          "Windblight Ganon"
+        ],
+        "answer": "Calamity Ganon"
+      }
+    ]
+  },
+  {
+    "quizName": "Star Fox  ",
+    "image": "https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2015/11/18/1331760416112_2/star-fox-zero",
+    "questions": [
+      {
+        "name": "Question 1",
+        "question": "What is the name of the main character in Star Fox?",
+        "options": [
+          "Fox McCloud",
+          "Falco Lombardi",
+          "Peppy Hare",
+          "Slippy Toad"
+        ],
+        "answer": "Fox McCloud"
+      },
+      {
+        "name": "Question 2",
+        "question": "What is the name of the main villainous organization in the Star Fox series?",
+        "options": [
+          "Andross's Empire",
+          "The Lylat Federation",
+          "The Cornerian Army",
+          "Star Wolf"
+        ],
+        "answer": "Andross's Empire"
+      },
+      {
+        "name": "Question 3",
+        "question": "What is the name of the planet where the majority of the action takes place in the original Star Fox?",
+        "options": ["Corneria", "Titania", "Aquas", "Venom"],
+        "answer": "Corneria"
+      },
+      {
+        "name": "Question 4",
+        "question": "What is the name of the flying device that the Star Fox team uses to travel and fight enemies?",
+        "options": ["Arwing", "Landmaster", "Blue Marine", "Great Fox"],
+        "answer": "Arwing"
+      },
+      {
+        "name": "Question 5",
+        "question": "What is the name of the rival mercenary team that often opposes the Star Fox team?",
+        "options": ["Star Wolf", "Star Raven", "Black Hole", "Omega Squadron"],
+        "answer": "Star Wolf"
+      }
+    ]
+  },
+  {
+    "quizName": "Super Metroid",
+    "image": "https://images.nintendolife.com/18e5e3b48ef17/super-metroid.900x.jpg",
+    "questions": [
+      {
+        "name": "Question 1",
+        "question": "What is the name of the main protagonist in Super Metroid?",
+        "options": [
+          "Samus Aran",
+          "Master Chief",
+          "Isaac Clarke",
+          "Nathan Drake"
+        ],
+        "answer": "Samus Aran"
+      },
+      {
+        "name": "Question 2",
+        "question": "What is the name of the planet on which Super Metroid takes place?",
+        "options": ["Zebes", "Tallon IV", "Aether", "SR388"],
+        "answer": "Zebes"
+      },
+      {
+        "name": "Question 3",
+        "question": "What is the name of the species that Samus Aran belongs to?",
+        "options": ["Human", "Chozo", "Metroid", "Space Pirate"],
+        "answer": "Human"
+      },
+      {
+        "name": "Question 4",
+        "question": "What is the name of the weapon used to destroy the Metroids?",
+        "options": ["Plasma Beam", "Wave Beam", "Ice Beam", "Missiles"],
+        "answer": "Missiles"
+      },
+      {
+        "name": "Question 5",
+        "question": "What is the name of the giant, biomechanical creature that serves as the final boss in Super Metroid?",
+        "options": ["Mother Brain", "Kraid", "Ridley", "Crocomire"],
+        "answer": "Mother Brain"
+      }
+    ]
+  },
+  {
+    "quizName": "Star Wars Video Games",
+    "image": "https://assets2.rockpapershotgun.com/Best-Star-Wars-games-on-PC.jpg/BROK/resize/1920x1920%3E/format/jpg/quality/80/Best-Star-Wars-games-on-PC.jpg",
+    "questions": [
+      {
+        "name": "Question 1",
+        "question": "What is the name of the protagonist in the Jedi Knight series of games?",
+        "options": [
+          "Kyle Katarn",
+          "Luke Skywalker",
+          "Obi-Wan Kenobi",
+          "Anakin Skywalker"
+        ],
+        "answer": "Kyle Katarn"
+      },
+      {
+        "name": "Question 2",
+        "question": "What is the name of the primary antagonist in the Knights of the Old Republic games?",
+        "options": [
+          "Darth Revan",
+          "Darth Vader",
+          "Darth Sidious",
+          "Darth Malak"
+        ],
+        "answer": "Darth Malak"
+      },
+      {
+        "name": "Question 3",
+        "question": "What is the name of the first Star Wars video game, released in 1983?",
+        "options": [
+          "Star Wars: The Arcade Game",
+          "Star Wars: Jedi Arena",
+          "Star Wars: The Empire Strikes Back",
+          "Star Wars: X-Wing"
+        ],
+        "answer": "Star Wars: Jedi Arena"
+      },
+      {
+        "name": "Question 4",
+        "question": "What is the name of the bounty hunter protagonist in the Star Wars: Bounty Hunter game?",
+        "options": ["Boba Fett", "Jango Fett", "Cad Bane", "Aurra Sing"],
+        "answer": "Jango Fett"
+      },
+      {
+        "name": "Question 5",
+        "question": "What is the name of the protagonist in the Star Wars: The Force Unleashed games?",
+        "options": [
+          "Starkiller",
+          "Galen Marek",
+          "Darth Vader",
+          "Luke Skywalker"
+        ],
+        "answer": "Starkiller"
+      }
+    ]
+  },
+  {
+    "quizName": "Bioshock",
+    "image": "https://cdn.2kgames.com/web/common/images/bioshock1_keyart_L_1.jpg",
+    "questions": [
+      {
+        "name": "Question 1",
+        "question": "What is the name of the underwater city in Bioshock?",
+        "options": ["Rapture", "Columbia", "Carcosa", "Arkham"],
+        "answer": "Rapture"
+      },
+      {
+        "name": "Question 2",
+        "question": "What is the name of the protagonist in Bioshock?",
+        "options": ["Jack", "Subject Delta", "Booker DeWitt", "Andrew Ryan"],
+        "answer": "Jack"
+      },
+      {
+        "name": "Question 3",
+        "question": "What is the name of the genetic material that powers the abilities of the characters in Bioshock?",
+        "options": ["ADAM", "EVE", "PLASMIDS", "GENETIX"],
+        "answer": "ADAM"
+      },
+      {
+        "name": "Question 4",
+        "question": "What is the name of the leader of Rapture?",
+        "options": ["Andrew Ryan", "Frank Fontaine", "Sofia Lamb", "Atlas"],
+        "answer": "Andrew Ryan"
+      },
+      {
+        "name": "Question 5",
+        "question": "What is the name of the primary antagonist in Bioshock 2?",
+        "options": ["Andrew Ryan", "Frank Fontaine", "Sofia Lamb", "Atlas"],
+        "answer": "Sofia Lamb"
+      }
+    ]
+  },
+  {
+    "quizName": "Fallout",
+    "image": "https://www.gameshub.com/wp-content/uploads/sites/5/2022/10/fallout-4-game.jpeg",
+    "questions": [
+      {
+        "name": "Question 1",
+        "question": "What is the name of the post-apocalyptic world in which the Fallout series takes place?",
+        "options": [
+          "Wasteland",
+          "The Commonwealth",
+          "The Mojave",
+          "The Capital Wasteland"
+        ],
+        "answer": "Wasteland"
+      },
+      {
+        "name": "Question 2",
+        "question": "What is the name of the organization that is central to the plot of the Fallout series, and is responsible for rebuilding civilization in the wake of nuclear war?",
+        "options": [
+          "The Brotherhood of Steel",
+          "The Enclave",
+          "The New California Republic",
+          "The Institute"
+        ],
+        "answer": "The Brotherhood of Steel"
+      },
+      {
+        "name": "Question 3",
+        "question": "What is the name of the iconic blue jumpsuit worn by inhabitants of the Vault-Tec vaults in Fallout?",
+        "options": [
+          "Vault suit",
+          "Hazmat suit",
+          "Radiation suit",
+          "Combat armor"
+        ],
+        "answer": "Vault suit"
+      },
+      {
+        "name": "Question 4",
+        "question": "What is the name of the fictional energy source that powers much of the technology in the Fallout universe?",
+        "options": [
+          "Fusion cores",
+          "Plasma cells",
+          "Microfusion cells",
+          "Energy cells"
+        ],
+        "answer": "Microfusion cells"
+      },
+      {
+        "name": "Question 5",
+        "question": "What is the name of the super mutant companion that appears in multiple Fallout games, including Fallout 3 and Fallout 4?",
+        "options": ["Strong", "Rex", "Dogmeat", "Codsworth"],
+        "answer": "Strong"
+      }
+    ]
+  },
+  {
+    "quizName": "Super Mario",
+    "image": "https://supermarioplay.com/site_image.png",
+    "questions": [
+      {
+        "name": "Question 1",
+        "question": "What is the name of the main character in the Super Mario series?",
+        "options": ["Mario", "Luigi", "Wario", "Yoshi"],
+        "answer": "Mario"
+      },
+      {
+        "name": "Question 2",
+        "question": "What is the name of Mario's dinosaur companion?",
+        "options": ["Yoshi", "Toad", "Koopa Troopa", "Goomba"],
+        "answer": "Yoshi"
+      },
+      {
+        "name": "Question 3",
+        "question": "What is the name of the primary antagonist in the Super Mario series?",
+        "options": ["Bowser", "King Boo", "Waluigi", "Donkey Kong"],
+        "answer": "Bowser"
+      },
+      {
+        "name": "Question 4",
+        "question": "What is the name of the magical kingdom that serves as the main setting of many Super Mario games?",
+        "options": [
+          "The Mushroom Kingdom",
+          "The Koopa Kingdom",
+          "The Donut Plains",
+          "The Star World"
+        ],
+        "answer": "The Mushroom Kingdom"
+      },
+      {
+        "name": "Question 5",
+        "question": "What is the name of the item that Mario can use to grow in size and gain extra strength?",
+        "options": ["Super Mushroom", "Fire Flower", "Cape Feather", "Starman"],
+        "answer": "Super Mushroom"
+      }
+    ]
+  },
+  {
+    "quizName": "Metroid Dread",
+    "image": "https://www.gamespot.com/a/uploads/screen_kubrick/1595/15950357/3887711-metroid8.jpg",
+    "questions": [
+      {
+        "name": "Question 1",
+        "question": "Who is the protagonist of Metroid Dread?",
+        "options": ["Samus Aran", "Ridley", "Dark Samus", "Adam Malkovich"],
+        "answer": "Samus Aran"
+      },
+      {
+        "name": "Question 2",
+        "question": "What is the name of the alien species that serves as the primary antagonists of the Metroid series?",
+        "options": [
+          "The Space Pirates",
+          "The Chozo",
+          "The X Parasites",
+          "The Federation"
+        ],
+        "answer": "The Space Pirates"
+      },
+      {
+        "name": "Question 3",
+        "question": "What is the name of the powerful weapon system that Samus can activate in the Metroid series to gain temporary invincibility and enhanced attack capabilities?",
+        "options": [
+          "The Screw Attack",
+          "The Power Bomb",
+          "The Ice Beam",
+          "The Grapple Beam"
+        ],
+        "answer": "The Screw Attack"
+      },
+      {
+        "name": "Question 4",
+        "question": "What is the name of the planet where much of the action in the Metroid series takes place?",
+        "options": ["Zebes", "SR388", "Aether", "Tallon IV"],
+        "answer": "Zebes"
+      },
+      {
+        "name": "Question 5",
+        "question": "What is the name of the Metroid subspecies that is immune to cold-based attacks and can phase through walls?",
+        "options": [
+          "The Omega Metroid",
+          "The Zeta Metroid",
+          "The Gamma Metroid",
+          "The Alpha Metroid"
+        ],
+        "answer": "The Omega Metroid"
+      }
+    ]
+  },
+  {
+    "quizName": "Yoshi's Island",
+    "image": "https://images.squarespace-cdn.com/content/v1/55ef0e29e4b099e22cdc9eea/1481038763066-6293Y4ER881BMVK4E26C/image-asset.jpeg?format=1500w",
+    "questions": [
+      {
+        "name": "Question 1",
+        "question": "What is the name of the green dinosaur that serves as the main character in Yoshi's Island?",
+        "options": ["Yoshi", "Toad", "Koopa Troopa", "Goomba"],
+        "answer": "Yoshi"
+      },
+      {
+        "name": "Question 2",
+        "question": "What is the name of the baby that Yoshi must protect and carry throughout much of the game in Yoshi's Island?",
+        "options": ["Baby Mario", "Baby Luigi", "Baby Peach", "Baby Bowser"],
+        "answer": "Baby Mario"
+      },
+      {
+        "name": "Question 3",
+        "question": "What is the name of the primary antagonist in Yoshi's Island?",
+        "options": ["Kamek", "Bowser", "Wario", "Donkey Kong"],
+        "answer": "Kamek"
+      },
+      {
+        "name": "Question 4",
+        "question": "What is the name of the power-up that allows Yoshi to fly in Yoshi's Island?",
+        "options": ["Wings", "Cape Feather", "Super Mushroom", "Flutter Jump"],
+        "answer": "Wings"
+      },
+      {
+        "name": "Question 5",
+        "question": "What is the name of the end-of-level boss that Yoshi must defeat in World 1-8 of Yoshi's Island?",
+        "options": [
+          "Naval Piranha",
+          "Hookbill the Koopa",
+          "Kamek",
+          "Salvo the Slime"
+        ],
+        "answer": "Naval Piranha"
+      }
+    ]
+  },
+  {
+    "quizName": "Spider-Man (2018)",
+    "image": "https://variety.com/wp-content/uploads/2018/09/marvels-spider-man-review.png?w=1024",
+    "questions": [
+      {
+        "name": "Question 1",
+        "question": "Who is the main character in Spider-Man (2018)?",
+        "options": [
+          "Peter Parker",
+          "Miles Morales",
+          "Mary Jane Watson",
+          "Gwen Stacy"
+        ],
+        "answer": "Peter Parker"
+      },
+      {
+        "name": "Question 2",
+        "question": "What is the name of the fictional New York City borough where much of Spider-Man (2018) takes place?",
+        "options": ["Manhattan", "Queens", "Brooklyn", "The Bronx"],
+        "answer": "Manhattan"
+      },
+      {
+        "name": "Question 3",
+        "question": "What is the name of the scientific corporation that is central to the plot of Spider-Man (2018)?",
+        "options": ["Oscorp", "Alchemax", "Roxxon", "Stark Industries"],
+        "answer": "Oscorp"
+      },
+      {
+        "name": "Question 4",
+        "question": "What is the name of the criminal organization that serves as the primary antagonists of Spider-Man (2018)?",
+        "options": [
+          "The Inner Demons",
+          "The Sinister Six",
+          "The Maggia",
+          "The Kingpin's Syndicate"
+        ],
+        "answer": "The Inner Demons"
+      },
+      {
+        "name": "Question 5",
+        "question": "What is the name of the super villain who serves as the primary antagonist of Spider-Man (2018)?",
+        "options": ["Doctor Octopus", "Green Goblin", "Venom", "Rhino"],
+        "answer": "Doctor Octopus"
+      }
+    ]
+  },
+  {
+    "quizName": "Spyro 2: Ripto's Rage",
+    "image": "https://pbs.twimg.com/media/FMOnoU_VEAMhDQ0.jpg:large",
+    "questions": [
+      {
+        "name": "Question 1",
+        "question": "Who is the main character in Spyro 2: Ripto's Rage?",
+        "options": [
+          "Spyro the Dragon",
+          "Sparx the Dragonfly",
+          "Elora the Faun",
+          "Hunter the Cheetah"
+        ],
+        "answer": "Spyro the Dragon"
+      },
+      {
+        "name": "Question 2",
+        "question": "What is the name of the primary antagonist in Spyro 2: Ripto's Rage?",
+        "options": ["Ripto", "Gnasty Gnorc", "Moneybags", "The Sorceress"],
+        "answer": "Ripto"
+      },
+      {
+        "name": "Question 3",
+        "question": "What is the name of the magical realm where Spyro 2: Ripto's Rage takes place?",
+        "options": ["Avalar", "The Dragon Realms", "Artisans", "Dream Weavers"],
+        "answer": "Avalar"
+      },
+      {
+        "name": "Question 4",
+        "question": "What is the name of the power-up that allows Spyro to charge through enemies and break through obstacles in Spyro 2: Ripto's Rage?",
+        "options": [
+          "Supercharge",
+          "Flame Breath",
+          "Ice Breath",
+          "Thunder Breath"
+        ],
+        "answer": "Supercharge"
+      },
+      {
+        "name": "Question 5",
+        "question": "What is the name of the final boss that Spyro must defeat in Spyro 2: Ripto's Rage?",
+        "options": ["The Sorceress", "Ripto", "Gulp", "Red"],
+        "answer": "Ripto"
+      }
+    ]
+  },
+  {
+    "quizName": "Spyro: Year of the Dragon",
+    "image": "https://i.ytimg.com/vi/XG025J3jg4M/maxresdefault.jpg",
+    "questions": [
+      {
+        "name": "Question 1",
+        "question": "Who is the main character in Spyro: Year of the Dragon?",
+        "options": [
+          "Spyro the Dragon",
+          "Sparx the Dragonfly",
+          "Hunter the Cheetah",
+          "Bianca the Rabbit"
+        ],
+        "answer": "Spyro the Dragon"
+      },
+      {
+        "name": "Question 2",
+        "question": "What is the name of the primary antagonist in Spyro: Year of the Dragon?",
+        "options": ["The Sorceress", "Ripto", "Gnasty Gnorc", "Moneybags"],
+        "answer": "The Sorceress"
+      },
+      {
+        "name": "Question 3",
+        "question": "What is the name of the magical realm where Spyro: Year of the Dragon takes place?",
+        "options": [
+          "The Forgotten Realms",
+          "The Dragon Realms",
+          "The Artisan's World",
+          "The Dream Weavers' World"
+        ],
+        "answer": "The Forgotten Realms"
+      },
+      {
+        "name": "Question 4",
+        "question": "What is the name of the power-up that allows Spyro to hover in Spyro: Year of the Dragon?",
+        "options": [
+          "The Wing Shield",
+          "The Superfly Powerup",
+          "The Head Bash",
+          "The Glide"
+        ],
+        "answer": "The Glide"
+      },
+      {
+        "name": "Question 5",
+        "question": "What is the name of the final boss that Spyro must defeat in Spyro: Year of the Dragon?",
+        "options": ["The Sorceress", "Ripto", "Gnasty Gnorc", "Moneybags"],
+        "answer": "The Sorceress"
+      }
+    ]
+  },
+  {
+    "quizName": "Horizon Zero Dawn",
+    "image": "https://www.cnet.com/a/img/resize/f6c94f246c067ce1bd7156004ffc58bd05d09ae8/hub/2017/01/30/9b192a20-eb5f-4d28-938e-4b719e04dc67/horizon-zero-dawnthumb.jpg?auto=webp&fit=cover&height=482&width=856",
+    "questions": [
+      {
+        "name": "Question 1",
+        "question": "Who is the main character in Horizon Zero Dawn?",
+        "options": ["Aloy", "Erend", "Varl", "Avad"],
+        "answer": "Aloy"
+      },
+      {
+        "name": "Question 2",
+        "question": "What is the name of the fictional post-apocalyptic world where Horizon Zero Dawn takes place?",
+        "options": [
+          "The Forbidden West",
+          "The Old World",
+          "The Metal World",
+          "The New World"
+        ],
+        "answer": "The Old World"
+      },
+      {
+        "name": "Question 3",
+        "question": "What is the name of the robotic animals that roam the world of Horizon Zero Dawn?",
+        "options": [
+          "Machines",
+          "Beasts",
+          "Robo-Animals",
+          "Mechanical Creatures"
+        ],
+        "answer": "Machines"
+      },
+      {
+        "name": "Question 4",
+        "question": "What is the name of the tribe that Aloy belongs to in Horizon Zero Dawn?",
+        "options": ["The Nora", "The Carja", "The Banuk", "The Oseram"],
+        "answer": "The Nora"
+      },
+      {
+        "name": "Question 5",
+        "question": "What is the name of the primary antagonist in Horizon Zero Dawn?",
+        "options": ["Hades", "Gaia", "Aloy's Mother", "Ted Faro"],
+        "answer": "Hades"
+      }
+    ]
+  },
+  {
+    "quizName": "Bayonetta",
+    "image": "https://www.gannett-cdn.com/presto/2022/12/12/PREN/4ef40c47-d6f1-4400-8ce1-4eb5c1ac772f-Bayonetta_3_00.jpg",
+    "questions": [
+      {
+        "name": "Question 1",
+        "question": "Who is the main character in Bayonetta?",
+        "options": ["Bayonetta", "Jeanne", "Rodin", "Enzo"],
+        "answer": "Bayonetta"
+      },
+      {
+        "name": "Question 2",
+        "question": "What is the name of the magical artifact that Bayonetta must retrieve in Bayonetta?",
+        "options": [
+          "The Right Eye",
+          "The Left Eye",
+          "The Magic Mirror",
+          "The Crystal Skull"
+        ],
+        "answer": "The Left Eye"
+      },
+      {
+        "name": "Question 3",
+        "question": "What is the name of the demonic realm that Bayonetta travels to in Bayonetta?",
+        "options": ["Inferno", "Purgatorio", "The Abyss", "The Underworld"],
+        "answer": "Purgatorio"
+      },
+      {
+        "name": "Question 4",
+        "question": "What is the name of the organization that Bayonetta works for in Bayonetta?",
+        "options": [
+          "The Umbra Witches",
+          "The Lumen Sages",
+          "The Order of the Sword",
+          "The Hierarchy"
+        ],
+        "answer": "The Umbra Witches"
+      },
+      {
+        "name": "Question 5",
+        "question": "What is the name of the angelic antagonist that Bayonetta must defeat in Bayonetta?",
+        "options": ["Fortitudo", "Temperantia", "Iustitia", "Sapientia"],
+        "answer": "Fortitudo"
+      }
+    ]
+  },
+  {
+    "quizName": "Time Crisis",
+    "image": "https://www.wired.com/images_blogs/photos/uncategorized/2007/06/16/time_crisis_4_3.jpg",
+    "questions": [
+      {
+        "name": "Question 1",
+        "question": "Who are the two main characters in the original Time Crisis game?",
+        "options": [
+          "Richard Miller and Rachel MacPherson",
+          "Luke O'Neil and Robert Baxter",
+          "Thomas Rogan and G",
+          "Jack Mathers and Ryan Lennox"
+        ],
+        "answer": "Richard Miller and Rachel MacPherson"
+      },
+      {
+        "name": "Question 2",
+        "question": "What is the name of the terrorist organization that the main characters must defeat in Time Crisis?",
+        "options": [
+          "Neodyne Industries",
+          "Serpent",
+          "Wild Dog",
+          "The Zagorias Federation"
+        ],
+        "answer": "Serpent"
+      },
+      {
+        "name": "Question 3",
+        "question": "What is the name of the light gun that is used to play Time Crisis?",
+        "options": ["GunCon", "Zapper", "Phaser", "Blaster"],
+        "answer": "GunCon"
+      },
+      {
+        "name": "Question 4",
+        "question": "What is the name of the power-up that slows down time in Time Crisis?",
+        "options": ["Crisis Time", "Super Time", "Bullet Time", "Slow Motion"],
+        "answer": "Crisis Time"
+      },
+      {
+        "name": "Question 5",
+        "question": "What is the name of the villainous scientist that the main characters must defeat in Time Crisis 4?",
+        "options": [
+          "Christine Yamata",
+          "Giorgio Bruno",
+          "Wild Fang",
+          "Alicia Winston"
+        ],
+        "answer": "Giorgio Bruno"
+      }
+    ]
+  },
+  {
+    "quizName": "Grand Theft Auto V",
+    "image": "https://variety.com/wp-content/uploads/2013/09/gta-v-big.jpg?w=681&h=383&crop=1",
+    "questions": [
+      {
+        "name": "Question 1",
+        "question": "Who are the three main playable characters in Grand Theft Auto V?",
+        "options": [
+          "Michael, Franklin, and Trevor",
+          "Niko, Luis, and Johnny",
+          "Tommy, CJ, and Toni",
+          "Victor, Huang, and Luis"
+        ],
+        "answer": "Michael, Franklin, and Trevor"
+      },
+      {
+        "name": "Question 2",
+        "question": "What is the name of the fictional city where Grand Theft Auto V takes place?",
+        "options": ["Los Santos", "Liberty City", "Vice City", "San Fierro"],
+        "answer": "Los Santos"
+      },
+      {
+        "name": "Question 3",
+        "question": "What is the name of the criminal organization that Michael, Franklin, and Trevor must take down in Grand Theft Auto V?",
+        "options": [
+          "The Ballas",
+          "The Families",
+          "The Lost MC",
+          "The Merryweather Security Consulting"
+        ],
+        "answer": "The Merryweather Security Consulting"
+      },
+      {
+        "name": "Question 4",
+        "question": "What is the name of the GTA V DLC that adds a new heist and playable character?",
+        "options": [
+          "The Diamond Casino Heist",
+          "The Cayo Perico Heist",
+          "The Doomsday Heist",
+          "The Los Santos Connection"
+        ],
+        "answer": "The Cayo Perico Heist"
+      },
+      {
+        "name": "Question 5",
+        "question": "What is the name of the street gang that Franklin is associated with in Grand Theft Auto V?",
+        "options": ["The Ballas", "The Families", "The Lost MC", "The Vagos"],
+        "answer": "The Families"
+      }
+    ]
+  },
+  {
+    "quizName": "Grand Theft Auto: Vice City",
+    "image": "https://www.dsogaming.com/wp-content/uploads/2022/10/Grand-Theft-Auto-Vice-City-The-Final-Remastered-Mod-672x372.jpg",
+    "questions": [
+      {
+        "name": "Question 1",
+        "question": "Who is the main character in Grand Theft Auto: Vice City?",
+        "options": [
+          "Tommy Vercetti",
+          "Carl Johnson",
+          "Toni Cipriani",
+          "Victor Vance"
+        ],
+        "answer": "Tommy Vercetti"
+      },
+      {
+        "name": "Question 2",
+        "question": "What is the name of the fictional city where Grand Theft Auto: Vice City takes place?",
+        "options": ["Vice City", "Los Santos", "Liberty City", "San Fierro"],
+        "answer": "Vice City"
+      },
+      {
+        "name": "Question 3",
+        "question": "What is the name of the drug lord that Tommy Vercetti works for in Grand Theft Auto: Vice City?",
+        "options": [
+          "Ricardo Diaz",
+          "Sonny Forelli",
+          "Ken Rosenberg",
+          "Avery Carrington"
+        ],
+        "answer": "Ricardo Diaz"
+      },
+      {
+        "name": "Question 4",
+        "question": "What is the name of the radio station that is hosted by Lazlow in Grand Theft Auto: Vice City?",
+        "options": ["V-Rock", "Wave 103", "Flash FM", "Fever 105"],
+        "answer": "V-Rock"
+      },
+      {
+        "name": "Question 5",
+        "question": "What is the name of the street gang that is based in Little Haiti in Grand Theft Auto: Vice City?",
+        "options": ["The Cubans", "The Haitians", "The Bikers", "The Sharks"],
+        "answer": "The Haitians"
+      }
+    ]
+  }
+]
