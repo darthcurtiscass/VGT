@@ -28,7 +28,7 @@ const Quizzes = ({ quizzes }) => {
   return (
     <div>
       {quizzes.map((quiz) => (
-        <div>
+        <div >
           <div
             id="carouselExampleAutoplaying"
             class="carousel slide"
@@ -43,6 +43,7 @@ const Quizzes = ({ quizzes }) => {
               </NavLink>
             </div>
           </div>
+          <div className="">
           <button
             onClick={Selection}
             class="carousel-control-prev"
@@ -51,9 +52,9 @@ const Quizzes = ({ quizzes }) => {
             data-bs-slide="prev"
           >
             <div class="bg-dark btn-sm"><span class='text-uppercase'>Back</span></div>
-            
-            
           </button>
+          </div>
+          <div className="">
           <button
             onClick={Selection}
             class="carousel-control-next"
@@ -65,6 +66,7 @@ const Quizzes = ({ quizzes }) => {
             
            
           </button>
+          </div>
         </div>
       ))}
     </div>

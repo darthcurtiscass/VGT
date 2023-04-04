@@ -40,13 +40,13 @@ const Home = ({ image, setImage }) => {
             <div className="flex-row justify-center">
                 <div className=" col-md-10 mb-3 p-3 mx-auto" style={{}}>
 
-                    <Layout className='bg-secondary'>
+                    <Layout className="bg-success bg-gradient rounded-5 container-fluid w-75">
                         <ImgCarousel quizzes={quizzes} image={image} setImage={setImage} />
 
                     </Layout>
                 </div>
             </div>
-            <div className="">
+            <div className="container-lg rounded-3 align-middle">
                 {loading ? (
                     <div>Loading...</div>) : 
                     (<GameSelection

@@ -12,11 +12,9 @@ const QuizList = ({ quizzes, title }) => {
     <div>
       {
         quizzes.map((quiz) => (
-
-            <h4 className="btn btn-danger">
-              <NavLink to={`/quiz/${quiz._id}`} style={{color:'yellow'}}>{quiz.quizName}</NavLink> 
+            <h4 className="btn btn-success bg-gradient border-warning flex-column">
+              <NavLink className="text-black text-decoration-none" to={`/quiz/${quiz._id}`} style={{color:'yellow'}}>{quiz.quizName}</NavLink> 
             </h4>
-
         ))}
     </div>
   );
