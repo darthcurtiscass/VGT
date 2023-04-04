@@ -595,7 +595,7 @@
     {
       "name": "Question 10" ,
       "question": "What is the name of the floating city that serves as the main setting of Bioshock Infinite?",
-      "options": ["Columbia", "Rapture", "Carcosa", "Arkham"],
+      "options": ["Columbia", "Rapture", "Carcosa", "Arkham"]  ,
       "answer": "Columbia"
     }
   ]
