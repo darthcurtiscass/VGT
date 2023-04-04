@@ -13,7 +13,7 @@ import Login from '../pages/Login';
 function Header() {
   return (
 
-      <header style={{ position: 'sticky', top: 0, zIndex: 1, width: '100%' }} className="navbar bg-body-tertiary">
+      <header style={{ position: 'sticky', top: 0, zIndex: 1, width: "auto" }} className="navbar bg-body-tertiary">
 
         <div className='bg-warning' style={{
           float: 'left',

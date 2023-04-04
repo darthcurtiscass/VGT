@@ -16,7 +16,7 @@ const LeaderBoard = () => {
   
     const quiz = data?.quiz || []
 
-    console.log(data.users)
+
     if (!data) return <div>Loading...</div>;
 
     

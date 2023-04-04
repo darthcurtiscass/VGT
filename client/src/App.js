@@ -52,7 +52,7 @@ function App() {
       <Router>
         <Layout style={{ fontFamily: "DM Serif Display" }} className="App bg-secondary">
           <Header />
-          <div className='body-container bg-secondary'>
+          <div className='body-container-fluid bg-secondary w-auto min-vh-100'>
             <Routes>
               <Route 
                 path="/"

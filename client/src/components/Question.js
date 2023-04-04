@@ -24,7 +24,6 @@ const QuizList = ({ quiz, score, setScore }) => {
       setQuizName({ quizName, [name]: value })
       
 
-
       try {
         await addResult({
           variables: { score, quiz: quiz.quizName },
@@ -53,11 +52,17 @@ const QuizList = ({ quiz, score, setScore }) => {
     if (currentQuestion === quiz.questions.length) {
     console.log("No More Questions");
     return (
-      <div >
-        
-        No More Questions
-        Would you like to Save your Score?
-        <button name= "quizName" onClick={handleSaveScore}>SAVE {quiz.quizName}</button>
+      <div>
+
+    <div class="card" >
+        <img src={quiz.image} className="card-img-top" alt="quiz name" />
+        <div class="card-body">
+          <h2 class="card-title">{quiz.name}</h2>
+          <h6 class="card-text">{score}</h6>
+          <a name= "quizName" onClick={handleSaveScore} href="#" class="btn btn-primary">Save Score</a>
+        </div>
+        </div>
+        {/* <button name= "quizName" onClick={handleSaveScore}>SAVE {quiz.quizName}</button> */}
       </div>
     ); 
   }
