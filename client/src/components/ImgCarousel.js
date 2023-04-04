@@ -12,7 +12,7 @@ const Quizzes = ({ quizzes }) => {
     // console.log(event.target.textContent)
     console.log(event.target.textContent);
     console.log(quizzes[0].image);
-    if (event.target.textContent === "Previous") {
+    if (event.target.textContent === "Back") {
       setImage(image - 1);
     } else if (event.target.textContent === "Next") {
       setImage(image+1);
@@ -41,18 +41,18 @@ const Quizzes = ({ quizzes }) => {
             data-bs-target="#carouselExampleAutoplaying"
             data-bs-slide="prev"
           >
-            <span class='text-uppercase'>Previous</span>
+            <div class="button-wrap"><span class='text-uppercase'>Back</span></div>
             
             
           </button>
           <button
             onClick={Selection}
-            class="carousel-control-next "
+            class="carousel-control-next"
             type="button"
             data-bs-target="#carouselExampleAutoplaying"
             data-bs-slide="next"
           >
-            <span class="text-uppercase">Next</span>
+            <div class="button-wrap"><span class="text-uppercase">Next</span></div>
             
            
           </button>
