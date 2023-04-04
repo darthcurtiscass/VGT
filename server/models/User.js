@@ -1,19 +1,13 @@
 const mongoose = require('mongoose');
-
-const { Schema } = mongoose;
+const resultSchema = require('./Result')
+const { Schema, model } = mongoose;
 const bcrypt = require('bcrypt');
-const Order = require('./Order');
 
 const userSchema = new Schema({
-  firstName: {
+  username: {
     type: String,
     required: true,
-    trim: true
-  },
-  lastName: {
-    type: String,
-    required: true,
-    trim: true
+    unique: true
   },
   email: {
     type: String,
@@ -23,9 +17,21 @@ const userSchema = new Schema({
   password: {
     type: String,
     required: true,
-    minlength: 5
+    minlength: 1
   },
-  orders: [Order.schema]
+  scores: [ resultSchema],
+  friends: [
+    {
+        type: Schema.Types.ObjectId,
+        ref: 'user'
+    },
+  ],
+  quizzes: [ 
+    {
+      type: Schema.Types.ObjectId,
+      ref: 'quiz'
+    },
+   ]
 });
 
 // set up pre-save middleware to create password
@@ -43,6 +49,8 @@ userSchema.methods.isCorrectPassword = async function(password) {
   return await bcrypt.compare(password, this.password);
 };
 
-const User = mongoose.model('User', userSchema);
+// add virtual to calculate average score.
+
+const User = mongoose.model('user', userSchema);
 
 module.exports = User;

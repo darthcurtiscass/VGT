@@ -2,37 +2,115 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* .nav a{
+  border-radius: 5px;
+  background-color: #3b8f8f;
+  font-size: larger;
+  text-decoration: none;
+  color: #CECECE;
+  padding: 5px;
+  border: solid;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
+} */
+
+.nav {
+  float: right;
+  padding: 15px;
+  text-decoration:none;
+  background-image:  conic-gradient( black , #a57a0e );
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.h4 {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.logo {
+  float: 'left';
+  width: 120;
+  height: 31;
+  margin: '16px 24px 16px 0';
+  background: 'rgba(255, 255, 255, 0.2)';
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.small-line-break {
+  display: block;
+  height: 0.5em; /* or any other value that you prefer */
+  content: "";
 }
+
+.container {
+  border: solid;
+  border-color: black;
+  background-color: gold;
+  font-size: larger;
+  display:flexbox;
+  margin: 20px;
+  ;
+}
+
+.body-container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.text-uppercase {
+  border: solid;
+  border-color: black;
+  border-radius: 5px;
+  background-color: gray;
+  font-size: larger;
+  display:flexbox;
+  margin: 5px;
+  padding: 5px;
+  color:black;
+}
+
+.button-wrap {
+  background-color: #ffc107;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 480px) {
+  .side-leaderboard {
+    display: none;
+  }
+  .carousel-control-next, .carousel-control-prev {
+  margin-top: 200px;
+  margin-bottom: 1500px;
+}
+  }
+
+  @media only screen and (min-width: 1200px) {
+    .side-leaderboard {
+      display: none;
+    }
+    .carousel-control-next, .carousel-control-prev {
+      margin-top: 150px;
+      margin-bottom: 1500px;
+    }
+}
+  
+
+  .ant-menu-horizontal, .ant-menu-item::after, .ant-menu-submenu::after {
+    border: none !important;
+}
+
+
+
+.menuNav {
+  padding: 3px;
+  text-decoration-line: inherit;
+  background-color:gray;
+  border: solid;
+  border-color: black;
+  border-radius: 20px;
+}
+
