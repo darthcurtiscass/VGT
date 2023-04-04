@@ -1,11 +1,7 @@
-import React from 'react';
+import { React, useState } from 'react';
 import '../App.css';
-import { Col, message, Row } from 'antd';
+import { Avatar, Space, Card, Checkbox, Form, Input, Col, message, Row } from 'antd'
 import { UserOutlined } from '@ant-design/icons';
-import { Avatar, Space } from 'antd'
-import { Card } from 'antd';
-import { Checkbox,Form,Input,} from 'antd';
-import { useState } from 'react';
 import { GET_ME } from '../utils/queries';
 import { useQuery }  from '@apollo/client';
 const { TextArea } = Input;

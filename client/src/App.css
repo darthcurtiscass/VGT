@@ -54,16 +54,50 @@
   width: 100vw;
 }
 
+.text-uppercase {
+  border: solid;
+  border-color: black;
+  border-radius: 5px;
+  background-color: gray;
+  font-size: larger;
+  display:flexbox;
+  margin: 5px;
+  padding: 5px;
+  color:black;
+}
+
+.button-wrap {
+  background-color: #ffc107;
+  padding: 7px;
+  border-radius: 5px;
+}
 
 @media only screen and (max-width: 480px) {
   .side-leaderboard {
     display: none;
   }
-  } 
+  .carousel-control-next, .carousel-control-prev {
+  margin-top: 200px;
+  margin-bottom: 1500px;
+}
+  }
+
+  @media only screen and (min-width: 1200px) {
+    .side-leaderboard {
+      display: none;
+    }
+    .carousel-control-next, .carousel-control-prev {
+      margin-top: 150px;
+      margin-bottom: 1500px;
+    }
+}
+  
 
   .ant-menu-horizontal, .ant-menu-item::after, .ant-menu-submenu::after {
     border: none !important;
 }
+
+
 
 .menuNav {
   padding: 3px;
@@ -73,3 +107,4 @@
   border-color: black;
   border-radius: 20px;
 }
+
