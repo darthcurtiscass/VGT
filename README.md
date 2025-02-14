@@ -28,7 +28,7 @@ This cannot be installed
 The application can be used to test the video game knowledge of users through simple 5 question quizzes.  The users can save their scores and view the scores through thier profile.
 
 ## Contributions: 
-Max Tribble, Teamir Teklu, Owen Baker, Christian Loera
+Dylan Cassagnol, Max Tribble, Teamir Teklu, Owen Baker, Christian Loera
 
 ## License: 
 
